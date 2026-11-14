@@ -146,7 +146,12 @@ def main(root):
         a = np.exp(p[:, :, 2]) / st["T2"]; b = np.exp(p[:, :, 3]) / st["T2"]
         for j in range(3):
             for r, y in enumerate((frac[:, j], xi[:, j], a[:, j], b[:, j])):
-                axs[r, j].plot(f["nstar"][k], y[k], color=cl, label=f"{f['mach']:g}")
+                if t in ("M3", "M4"):       # downstream of n* = 0.5 the populations overlap: decomposition not unique
+                    k1 = k & (f["nstar"] <= 0.5); k2 = k & (f["nstar"] >= 0.5)
+                    axs[r, j].plot(f["nstar"][k1], y[k1], color=cl, label=f"{f['mach']:g}")
+                    axs[r, j].plot(f["nstar"][k2], y[k2], ":", color=cl, lw=1.0)
+                else:
+                    axs[r, j].plot(f["nstar"][k], y[k], color=cl, label=f"{f['mach']:g}")
         T["pop3"][t] = {f"n{lv}": [[float(np.interp(lv, f["nstar"][k], y[k, j])) for y in (frac, xi, a, b)] for j in range(3)] for lv in (0.1, 0.5)}
     for j in range(3): axs[0, j].set_title(POPS[j], fontsize=9); axs[3, j].set_xlabel(r"$n^*$")
     for r, lab in enumerate((r"mass fraction $n_k/\rho$", r"mean velocity $\hat\xi_k$", r"$T_{\parallel k}/T_2$", r"$T_{\perp k}/T_2$")):
@@ -243,8 +248,8 @@ def main(root):
         dp = os.path.join(root, "models_jfm", f"DSMC_M{M}_profiles.npz")
         if os.path.exists(dp):
             z = np.load(dp); ns = (z["rho"] - 1) / (sl.rh_states(M)["rho2"] - 1); k = (ns > 0.01) & (ns < 0.99)
-            axs[1, col].plot(ns[k][::6], (z["pxx"] / (0.5 * (z["pyy"] + z["pzz"])))[k][::6], ".", ms=2.5, color="0.45", label=r"DSMC, VHS $\omega=1$")
-        axs[0, col].legend(frameon=False, fontsize=6.5, loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=3, columnspacing=0.8, handlelength=1.5); axs[1, col].legend(frameon=False, fontsize=6.5)
+            axs[1, col].plot(ns[k][::6], (z["pxx"] / (0.5 * (z["pyy"] + z["pzz"])))[k][::6], ".", ms=2.5, color="0.45", label=r"DSMC, $\omega=1$")
+        axs[0, col].legend(frameon=False, fontsize=6.5, loc="lower center", bbox_to_anchor=(0.5, 1.0), ncol=3, columnspacing=0.8, handlelength=1.5); axs[1, col].legend(frameon=False, fontsize=6.5, loc="upper right", handlelength=1.3, borderaxespad=0.3, labelspacing=0.3)   # clear of the curves
     axs[0, 0].set_ylabel(r"$g/\max g$"); axs[1, 0].set_ylabel(r"$T_\parallel/T_\perp$")
     save(fig, "fig8_model_sensitivity")
 

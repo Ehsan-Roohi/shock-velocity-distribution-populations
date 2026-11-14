@@ -39,6 +39,7 @@ centre.
 | `dsmc_shock_vdf3.cpp` | adds variable-soft-sphere scattering |
 | `dsmc_shock_vdf4.cpp` | adds the transverse fourth moment and the mixed moment |
 | `dsmc_shock_vdf5.cpp` | adds the free-flight flag relative to reference planes |
+| `dsmc_shock_vdf6.cpp` | version 2 with the sums of `v^3` and `v w^2` for every collision class, for the split of the stress and the heat flux by collision history |
 | `cascade_linear.cpp` | linear cascade model of the precursor (constant of the stopping rule: argument `cut`, default 4) |
 | `dsmc_to_reduced.py`, `dsmc_classes_to_npz.py` | conversion of the DSMC output |
 | `precursor_seeds.py`, `rate_seeds.py` | per-run fits of the precursor and its decay rates |
@@ -70,7 +71,11 @@ and `[-300, 100]` for `omega` = 0.5, 0.81 and 1.
 | `predictor_direct.py` | direct (D) and separate-beam (H) predictions, with positivity checks |
 | `predictor_clean.py` | archived against recomputed BGK solutions |
 | `transverse_check.py` | transverse fourth moment and mixed moment |
+| `positivity_sensitivity.py` | sensitivity of the three-population prediction at Mach 25 to the lower bound on the beam temperature; forms that are positive by construction |
+| `m25_prediction_figure.py`, `prediction_vs_reference_accuracy.py` | Mach-25 prediction in physical space; prediction errors beside the statistical scatter and the resolution sensitivity of the reference |
 | `generations.py`, `precursor_cascade.py`, `cascade_sources.py` | collision record and cascade model of the precursor |
+| `collision_split.py`, `collision_split_figure.py` | stress and heat flux carried by the unscattered stream and by the scattered molecules (ballistic and collision parts) |
+| `precursor_prediction_figure.py` | precursor in DSMC against the cascade model with the Rankine-Hugoniot source |
 | `paper_figures.py`, `methods_figure.py`, `mechanism_figure.py`, `decomposition_figure.py`, `graphical_abstract.py` | figures |
 
 Python 3 with `numpy`, `scipy` and `matplotlib`.
@@ -81,7 +86,9 @@ JSON summaries written by the codes above; the numbers of the paper are taken fr
 `predictor_summary.json`, `predictor_models_summary.json`, `predictor_direct.json`, `predictor_clean.json`
 (predictions), `generation_shares_precursor.json`, `free_flight.json`, `cascade_table_source_composition.json`,
 `rate_seeds_*.json`, `precursor_seeds*.json` (precursor), `bgk_resolution.json`, `dsmc_resolution_summary.json`,
-`dsmc_resolution_m12.json`, `dsmc_resolution_m25.json` (resolution tests), `fit_stability.json`, `transverse_check.json` (population fits).
+`dsmc_resolution_m12.json`, `dsmc_resolution_m25.json` (resolution tests), `fit_stability.json`, `transverse_check.json` (population fits),
+`collision_split.json` (stress and heat flux by collision history), `positivity_sensitivity.json`,
+`prediction_vs_reference_accuracy.json`, `rate_seeds_casc_fine.json` (cascade model with the fine tally cells).
 
 ### `data/`
 
@@ -89,6 +96,7 @@ JSON summaries written by the codes above; the numbers of the paper are taken fr
 |---|---|
 | `M8r_BGK_reduced_vdf.npz` | recomputed Mach-8 BGK shock: `x_mfp`, `vx`, `wx`, `G`, `H`, states, convergence history |
 | `cascade/*.txt` | cascade model: `x`, `beta` (all, uncollided source, scattered source, recoil), mean speed. `casc_*`: constant 4; `cut3_*`, `cut5_*`: constants 3 and 5; `tab_*`: driven by the flux measured in DSMC; `vss_*`: variable-soft-sphere scattering |
+| `cascade_fine/*.txt` | cascade model with the Rankine-Hugoniot source and tally cells of 1/1280 of the domain (the values compared with DSMC in the paper) |
 
 The raw DSMC output and the three-dimensional discrete-velocity arrays are several gigabytes and are available from
 the author on request.

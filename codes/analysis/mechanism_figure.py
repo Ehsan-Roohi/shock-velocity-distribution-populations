@@ -49,7 +49,7 @@ def main(root):
         ax.semilogy(dc[kc], a[kc, 2] / a[kc, 1], color=C_SURV, ls=":", lw=1.6, label="model, free flight")
         ax.errorbar(df, sh, yerr=ci, fmt="o", ms=3.8, mfc="w", mec=C_SURV, ecolor=C_SURV, elinewidth=0.9, capsize=2, label="DSMC, free flight")
         ax.set_ylim(0.01, 1.6)
-        ax.text(0.95, 0.42, f"({'def'[j]})", transform=ax.transAxes, va="top", ha="right", fontsize=8.5)
+        ax.text(0.05, 0.07, f"({'def'[j]})", transform=ax.transAxes, va="bottom", ha="left", fontsize=8.5)   # empty lower-left corner
         ax.set_xlim(0, dmax)
     axs[0, 0].set_ylabel(r"mass fraction $\beta$"); axs[1, 0].set_ylabel(r"share of $\beta$")
     fig.supxlabel(r"distance upstream of the plane where $\beta=10^{-2}$, in units of $\ell_1$", fontsize=9, y=0.012)

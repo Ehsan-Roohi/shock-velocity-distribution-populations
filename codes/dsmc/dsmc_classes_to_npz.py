@@ -1,12 +1,14 @@
 """Combine the seeds of version-2 DSMC runs and write the collision-history decomposition.
 
-Reads <runs>/M<M>_w<omega>_s<seed>.{txt,bin,cls.bin} written by dsmc_shock_vdf2.cpp and writes, for every
+Reads <runs>/M<M>_w<omega>_s<seed>.{txt,bin,cls.bin} written by dsmc_shock_vdf2.cpp or dsmc_shock_vdf6.cpp and writes, for every
 case, <out>/DSMC_w<omega>_M<M>_classes.npz with
   x, vx, nstar, states                      positions, velocity bins, normalized density, RH states
   G                [nc, nb]                 total reduced distribution g (as in the *_reduced_vdf.npz files)
   Gown             [5, nc, nb]              g of the own-count classes 0, 1, 2, 3+ and "struck by the beam"
   Ggen             [4, nc, nb]              g of generations 0, 1, 2, 3+
   mown, mgen       [5 or 4, nc, 4]          class density, mean velocity, T_par and T_perp
+  mraw             [9, nc, NCM]             raw class moments n<1>, n<v>, n<v^2>, n<w^2> and, for version 6 of the
+                                            DSMC code, n<v^3>, n<v w^2> (classes 0-4: own count; 5-8: generations)
 The generation of a molecule is the number of collisions that separates it from the unscattered beam.
 
 Usage: python dsmc_classes_to_npz.py <runs dir> <out dir> [min_steps]
@@ -54,6 +56,7 @@ def main(runs, out, min_steps=215000):
         np.savez_compressed(os.path.join(out, tag + "_classes.npz"), x=x, vx=vx, dv=dv, nstar=nstar, rho=rho, states=json.dumps(st),
                             mach=M, omega=om, G=(cnt * scale).astype(np.float32), Gown=(cc[:5] * scale).astype(np.float32),
                             Ggen=(cc[5:] * scale).astype(np.float32), mown=mom[:5], mgen=mom[5:], nseeds=nseed,
+                            mraw=cm * FN / (dx * ns),          # n <1, v, v^2, w^2 [, v^3, v w^2]> of the nine classes
                             count_scale=1.0 / scale)
         j = int(np.argmin(np.abs(nstar - 0.2)))
         print(f"{tag:20s} seeds {nseed}  generation fractions at n*=0.2: " + " ".join(f"{v:.3f}" for v in n[5:, j] / rho[j]), flush=True)
