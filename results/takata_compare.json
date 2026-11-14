@@ -21,6 +21,15 @@
    "rms_over_peak": 0.031138989667534808,
    "max_abs_over_peak": 0.07116311780312819,
    "value_at_corner": 1.420928102361019
+  },
+  "M25": {
+   "nstar": 0.5997713032462975,
+   "unscattered_fraction": NaN,
+   "peak": 2.0530666605709746,
+   "peak_at": 0.2898222284118977,
+   "rms_over_peak": 0.029402167335154696,
+   "max_abs_over_peak": 0.07066368582171847,
+   "value_at_corner": 1.271389293351091
   }
  }
 }

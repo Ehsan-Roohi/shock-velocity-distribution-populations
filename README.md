@@ -5,9 +5,10 @@ Codes and processed data for the paper
 > E. Roohi, *Population structure of the velocity distribution in normal shock waves: Gaussian representations,
 > Mach-number similarity, and prediction*, submitted to the Journal of Fluid Mechanics (2026).
 
-The paper studies the molecular velocity distribution inside a steady, plane normal shock in a monatomic gas up to
-Mach 12, using discrete-velocity solutions of the BGK, Shakhov and ES-BGK models and direct simulation Monte Carlo
-(DSMC) of hard-sphere and variable-hard-sphere gases. This repository holds what is needed to reproduce its results on
+The paper studies the molecular velocity distribution inside a steady, plane normal shock in a monatomic gas, using
+discrete-velocity solutions of the BGK, Shakhov and ES-BGK models up to Mach 12 and direct simulation Monte Carlo
+(DSMC) of hard-sphere and variable-hard-sphere gases up to Mach 25. This repository holds what is needed to reproduce
+its results on
 
 1. the three Gaussian populations (beam, intermediate, hot) of the reduced distributions and what they are, checked
    with a collision record carried by every DSMC molecule;
@@ -51,7 +52,9 @@ paper is
                  steps=215000 sample_start=15000 sample_every=2 out=runs/M8_w0.5_s1
 ```
 
-with eight seeds per case, time steps of 0.002-0.01, and the domain `-90 <= x <= 40` at Mach 10 and 12.
+with eight seeds per case, time steps of 0.002-0.01, and the domain `-90 <= x <= 40` at Mach 10 and 12. The Mach-25
+runs use `dsmc_shock_vdf2`, `dt=0.001`, `steps=245000 sample_start=30000`, and the domains `[-60, 30]`, `[-160, 60]`
+and `[-300, 100]` for `omega` = 0.5, 0.81 and 1.
 
 ### `codes/analysis/`
 

@@ -19,6 +19,21 @@
    "share_no_stream_contact": 0.017374884378101856,
    "share_stream_once": 0.4627092857947962
   },
+  "w0p5_M25": {
+   "mach": 25.0,
+   "omega": 0.5,
+   "A": 0.5538918284079737,
+   "AN_range": [
+    3.07956371262025,
+    5.6439419909321975
+   ],
+   "slope_all": -1.7540491459872396,
+   "slope_no_stream_contact": -2.2839257530562302,
+   "slope_pure_loss": -2.1681598223393803,
+   "saddle_speed_over_u1": 0.8601582789684958,
+   "share_no_stream_contact": 0.017017722506438206,
+   "share_stream_once": 0.46740490720372346
+  },
   "w0p5_M5": {
    "mach": 5.0,
    "omega": 0.5,
@@ -79,6 +94,21 @@
    "share_no_stream_contact": 0.03182683489065313,
    "share_stream_once": 0.4595991463619279
   },
+  "w0p81_M25": {
+   "mach": 25.0,
+   "omega": 0.81,
+   "A": 1.2390048848402717,
+   "AN_range": [
+    34.7744697018367,
+    71.20585740467259
+   ],
+   "slope_all": -0.12576574868866042,
+   "slope_no_stream_contact": -0.16102422849078707,
+   "slope_pure_loss": -0.15281798866896276,
+   "saddle_speed_over_u1": 0.9913593146640657,
+   "share_no_stream_contact": 0.03350111779034516,
+   "share_stream_once": 0.4540192592302246
+  },
   "w0p81_M5": {
    "mach": 5.0,
    "omega": 0.81,
@@ -138,6 +168,21 @@
    "saddle_speed_over_u1": 1.0560821674133853,
    "share_no_stream_contact": 0.06982693346640997,
    "share_stream_once": 0.4198312701715993
+  },
+  "w1_M25": {
+   "mach": 25.0,
+   "omega": 1.0,
+   "A": 1.9999999999999998,
+   "AN_range": [
+    154.84603429180765,
+    341.36641726732523
+   ],
+   "slope_all": -0.02477330125537357,
+   "slope_no_stream_contact": -0.0359942267937444,
+   "slope_pure_loss": -0.02963281474307253,
+   "saddle_speed_over_u1": 1.053365992087921,
+   "share_no_stream_contact": 0.11251988084299169,
+   "share_stream_once": 0.3584763290690681
   },
   "w1_M5": {
    "mach": 5.0,
@@ -312,6 +357,132 @@
     ]
    }
   },
+  "M25_w0.5": {
+   "mach": 25.0,
+   "omega": 0.5,
+   "seeds": 4,
+   "slope_all": -1.7505557626891415,
+   "slope_primaries": -2.302342774028224,
+   "share_primaries": 0.02586093478736335,
+   "share_recoil": 0.8394492008170192,
+   "mean_upstream_speed_over_u1": 0.34903493065828817,
+   "windows": {
+    "1e-04_1e-02": {
+     "rate_all_scaled": 1.7505557626891415,
+     "share_recoil": 0.7958082420515359,
+     "share_primaries": 0.04284953591314845,
+     "mean_speed_over_u1": 0.34903493065828817
+    },
+    "1e-06_1e-04": {
+     "rate_all_scaled": 1.6492533095003095,
+     "share_recoil": 0.8989903916774284,
+     "share_primaries": 0.010287372249522569,
+     "mean_speed_over_u1": 0.36118166446503913
+    },
+    "1e-08_1e-06": {
+     "rate_all_scaled": 1.6596044871553448,
+     "share_recoil": 0.9456226694182005,
+     "share_primaries": 0.0018862439234075868,
+     "mean_speed_over_u1": 0.37680306343241604
+    }
+   },
+   "stretched_fit": {
+    "p_best": 0.89,
+    "rms_best": 0.01489097304637026,
+    "rms_p1": 0.06501774374712384,
+    "rms_p067": 0.1266172821388337,
+    "p_heuristic": 1.0,
+    "rms_heuristic": 0.06501774374712384,
+    "p_within_twice_best": [
+     0.85,
+     0.93
+    ]
+   }
+  },
+  "M25_w0.81": {
+   "mach": 25.0,
+   "omega": 0.81,
+   "seeds": 4,
+   "slope_all": -0.12660426059701332,
+   "slope_primaries": -0.16081067992664042,
+   "share_primaries": 0.03678916394191213,
+   "share_recoil": 0.8144268835128493,
+   "mean_upstream_speed_over_u1": 0.40781261197317514,
+   "windows": {
+    "1e-04_1e-02": {
+     "rate_all_scaled": 1.0913002104193952,
+     "share_recoil": 0.7744121874257811,
+     "share_primaries": 0.05484326284709113,
+     "mean_speed_over_u1": 0.40781261197317514
+    },
+    "1e-06_1e-04": {
+     "rate_all_scaled": 0.9573816833015562,
+     "share_recoil": 0.87295532060584,
+     "share_primaries": 0.01781613231385255,
+     "mean_speed_over_u1": 0.43260389796108434
+    },
+    "1e-08_1e-06": {
+     "rate_all_scaled": 0.8612030428788312,
+     "share_recoil": 0.9242768080016638,
+     "share_primaries": 0.007603867951028635,
+     "mean_speed_over_u1": 0.46196454775671547
+    }
+   },
+   "stretched_fit": {
+    "p_best": 0.79,
+    "rms_best": 0.00935057695527023,
+    "rms_p1": 0.1184803484344975,
+    "rms_p067": 0.07197910986176424,
+    "p_heuristic": 0.7633587786259541,
+    "rms_heuristic": 0.021045996405085324,
+    "p_within_twice_best": [
+     0.77,
+     0.82
+    ]
+   }
+  },
+  "M25_w1": {
+   "mach": 25.0,
+   "omega": 1.0,
+   "seeds": 4,
+   "slope_all": -0.025227104615530935,
+   "slope_primaries": -0.03143044113316327,
+   "share_primaries": 0.04609264612777579,
+   "share_recoil": 0.7960229795012046,
+   "mean_upstream_speed_over_u1": 0.4442979019481292,
+   "windows": {
+    "1e-04_1e-02": {
+     "rate_all_scaled": 0.8142013004081964,
+     "share_recoil": 0.7381610428833058,
+     "share_primaries": 0.07500746521968785,
+     "mean_speed_over_u1": 0.4442979019481292
+    },
+    "1e-06_1e-04": {
+     "rate_all_scaled": 0.672166947429983,
+     "share_recoil": 0.8517041505255399,
+     "share_primaries": 0.024795209222412243,
+     "mean_speed_over_u1": 0.48394383152599857
+    },
+    "1e-08_1e-06": {
+     "rate_all_scaled": 0.5972562885130581,
+     "share_recoil": 0.9082418922064006,
+     "share_primaries": 0.01052915097966028,
+     "mean_speed_over_u1": 0.5114130433686416
+    }
+   },
+   "stretched_fit": {
+    "p_best": 0.72,
+    "rms_best": 0.010489113791710969,
+    "rms_p1": 0.18750489519060307,
+    "rms_p067": 0.03808275030354187,
+    "p_heuristic": 0.6666666666666666,
+    "rms_heuristic": 0.03808275030354187,
+    "p_within_twice_best": [
+     0.7,
+     0.74
+    ]
+   }
+  },
   "M8_w0.5": {
    "mach": 8.0,
    "omega": 0.5,
@@ -451,6 +622,17 @@
     -4.1
    ]
   },
+  "w0p5_M25": {
+   "x_ref": -3.8499999999999943,
+   "seeds": 4,
+   "max_abs_log_ratio": 0.03229421297373391,
+   "mean_log_ratio": 0.004970499270143968,
+   "rms_log_ratio": 0.013024680540460494,
+   "x_range": [
+    -8.499999999999995,
+    -4.099999999999994
+   ]
+  },
   "w0p5_M8": {
    "x_ref": -3.8499999999999943,
    "seeds": 4,
@@ -471,6 +653,17 @@
    "x_range": [
     -30.999999999999996,
     -13.399999999999997
+   ]
+  },
+  "w0p81_M25": {
+   "x_ref": -19.650000000000006,
+   "seeds": 4,
+   "max_abs_log_ratio": 0.04877114551582378,
+   "mean_log_ratio": -0.00293449042632357,
+   "rms_log_ratio": 0.014255365853657359,
+   "x_range": [
+    -48.900000000000006,
+    -21.000000000000007
    ]
   },
   "w0p81_M8": {
