@@ -1,0 +1,387 @@
+{
+ "labels": {
+  "w0p5_M8 | half cell and time step": {
+   "max_abs_generation_fraction_difference": 0.004476256499327258,
+   "by_generation": [
+    0.003,
+    0.0019,
+    0.0024,
+    0.0045
+   ],
+   "max_abs_once_collided_difference": 0.000950282457495101,
+   "max_abs_gen1_velocity_difference": 0.0037536287837103832
+  },
+  "w0p5_M8 | 50 molecules per cell": {
+   "max_abs_generation_fraction_difference": 0.00812192823101221,
+   "by_generation": [
+    0.0053,
+    0.0062,
+    0.0078,
+    0.0081
+   ],
+   "max_abs_once_collided_difference": 0.0031184888944293387,
+   "max_abs_gen1_velocity_difference": 0.005754437646721011
+  },
+  "w0p81_M8 | half cell and time step": {
+   "max_abs_generation_fraction_difference": 0.003906464570476942,
+   "by_generation": [
+    0.0039,
+    0.0032,
+    0.0018,
+    0.0037
+   ],
+   "max_abs_once_collided_difference": 0.0015732202127945183,
+   "max_abs_gen1_velocity_difference": 0.003872786647251547
+  },
+  "w0p81_M8 | 50 molecules per cell": {
+   "max_abs_generation_fraction_difference": 0.011566909530819403,
+   "by_generation": [
+    0.0116,
+    0.0097,
+    0.0049,
+    0.0065
+   ],
+   "max_abs_once_collided_difference": 0.004792014252541277,
+   "max_abs_gen1_velocity_difference": 0.01246964624300917
+  },
+  "w0p5_M8 | upstream domain 30": {
+   "max_abs_generation_fraction_difference": 0.0015387394753915151,
+   "by_generation": [
+    0.0005,
+    0.0007,
+    0.001,
+    0.0015
+   ],
+   "max_abs_once_collided_difference": 0.0003360722553397699,
+   "max_abs_gen1_velocity_difference": 0.001005601384250765
+  },
+  "w0p81_M8 | upstream domain 30": {
+   "max_abs_generation_fraction_difference": 0.010304159781726385,
+   "by_generation": [
+    0.0103,
+    0.0082,
+    0.0045,
+    0.0057
+   ],
+   "max_abs_once_collided_difference": 0.00409343779108301,
+   "max_abs_gen1_velocity_difference": 0.023375386637364937
+  }
+ },
+ "vss": {
+  "w0p81_M12 | alpha 1.4": {
+   "alpha": 1.4,
+   "mach": 12.0,
+   "omega": 0.81,
+   "precursor": {
+    "rate_all": 1.1158478492805557,
+    "rate_generation3": 1.4095572902132536,
+    "share_generation3": 0.03745463318839654,
+    "share_stream_once": 0.2992878064785546,
+    "length_two_decades": 18.6
+   },
+   "precursor_vhs": {
+    "rate_all": 1.0847955113547134,
+    "rate_generation3": 1.4038453675039089,
+    "share_generation3": 0.03182683489065313,
+    "share_stream_once": 0.4595991463619279,
+    "length_two_decades": 18.5
+   },
+   "fractions_at_levels": {
+    "0.1": [
+     0.499,
+     0.338,
+     0.131,
+     0.031
+    ],
+    "0.2": [
+     0.287,
+     0.352,
+     0.25,
+     0.111
+    ],
+    "0.35": [
+     0.136,
+     0.27,
+     0.315,
+     0.28
+    ],
+    "0.5": [
+     0.064,
+     0.177,
+     0.288,
+     0.471
+    ]
+   },
+   "gen1_xi_at_levels": {
+    "0.1": 0.5894503408537443,
+    "0.2": 0.597649991460252,
+    "0.5": 0.6306048279103175
+   },
+   "gen1_Tpar_at_levels": {
+    "0.1": 0.8103906982352949,
+    "0.2": 0.7399530010549303,
+    "0.5": 0.6293080715765796
+   },
+   "max_abs_generation_fraction_difference_from_vhs": 0.01696857278560393,
+   "vhs_fractions_at_levels": {
+    "0.1": [
+     0.49,
+     0.342,
+     0.135,
+     0.032
+    ],
+    "0.2": [
+     0.278,
+     0.351,
+     0.256,
+     0.115
+    ],
+    "0.35": [
+     0.129,
+     0.264,
+     0.316,
+     0.291
+    ],
+    "0.5": [
+     0.06,
+     0.17,
+     0.284,
+     0.486
+    ]
+   },
+   "vhs_gen1_xi_at_levels": {
+    "0.1": 0.5985378390406181,
+    "0.2": 0.6071771137856321,
+    "0.5": 0.6394727705367059
+   },
+   "table": {
+    "delta": 8.29364419609828,
+    "TparTperp_max": 2.702505299786755,
+    "rh_pair_max": 22.025479815728296,
+    "beta_n05": 0.044219321278865534,
+    "beta_n20": 0.13438201870926822
+   },
+   "table_vhs": {
+    "delta": 8.30166205952624,
+    "TparTperp_max": 2.7045391039590623,
+    "rh_pair_max": 22.474751451928427,
+    "beta_n05": 0.04435795739017946,
+    "beta_n20": 0.13453462439203306
+   },
+   "cascade": {
+    "rate_all": 1.1110841201111508,
+    "rate_primaries": 1.3899550291326428,
+    "share_recoil": 0.602931761160421,
+    "mean_speed_over_u1": 0.40965785967953605
+   }
+  },
+  "w0p81_M8 | alpha 1.4": {
+   "alpha": 1.4,
+   "mach": 8.0,
+   "omega": 0.81,
+   "precursor": {
+    "rate_all": 1.0999852931857566,
+    "rate_generation3": 1.3724174656683992,
+    "share_generation3": 0.03662948529999745,
+    "share_stream_once": 0.3077203455767631,
+    "length_two_decades": 14.600000000000001
+   },
+   "precursor_vhs": {
+    "rate_all": 1.066431743970637,
+    "rate_generation3": 1.4116156713443853,
+    "share_generation3": 0.03161596131702285,
+    "share_stream_once": 0.4503883899334297,
+    "length_two_decades": 14.700000000000003
+   },
+   "fractions_at_levels": {
+    "0.1": [
+     0.491,
+     0.343,
+     0.134,
+     0.032
+    ],
+    "0.2": [
+     0.281,
+     0.354,
+     0.254,
+     0.112
+    ],
+    "0.35": [
+     0.132,
+     0.268,
+     0.317,
+     0.283
+    ],
+    "0.5": [
+     0.063,
+     0.175,
+     0.288,
+     0.474
+    ]
+   },
+   "gen1_xi_at_levels": {
+    "0.1": 0.6049284187683277,
+    "0.2": 0.61073934570638,
+    "0.5": 0.642467834892711
+   },
+   "gen1_Tpar_at_levels": {
+    "0.1": 0.789411147627099,
+    "0.2": 0.727238126265895,
+    "0.5": 0.6287100942760747
+   },
+   "max_abs_generation_fraction_difference_from_vhs": 0.018335283586011886,
+   "vhs_fractions_at_levels": {
+    "0.1": [
+     0.481,
+     0.348,
+     0.14,
+     0.032
+    ],
+    "0.2": [
+     0.27,
+     0.352,
+     0.261,
+     0.117
+    ],
+    "0.35": [
+     0.125,
+     0.262,
+     0.319,
+     0.295
+    ],
+    "0.5": [
+     0.058,
+     0.167,
+     0.283,
+     0.491
+    ]
+   },
+   "vhs_gen1_xi_at_levels": {
+    "0.1": 0.6155872440910468,
+    "0.2": 0.6213236468545562,
+    "0.5": 0.652807197111338
+   },
+   "table": {
+    "delta": 6.644682911318454,
+    "TparTperp_max": 2.5050571918432647,
+    "rh_pair_max": 18.731498908926422,
+    "beta_n05": 0.042581806940912355,
+    "beta_n20": 0.1304164644156139
+   },
+   "table_vhs": {
+    "delta": 6.664125570486482,
+    "TparTperp_max": 2.5059309901815094,
+    "rh_pair_max": 19.014559524692906,
+    "beta_n05": 0.04260158820298779,
+    "beta_n20": 0.1304497260742661
+   }
+  },
+  "w0p81_M12 | alpha 2": {
+   "alpha": 2.0,
+   "mach": 12.0,
+   "omega": 0.81,
+   "precursor": {
+    "rate_all": 1.079808352455274,
+    "rate_generation3": 1.3971252493268655,
+    "share_generation3": 0.03200393018711639,
+    "share_stream_once": 0.18410751114513757,
+    "length_two_decades": 18.6
+   },
+   "precursor_vhs": {
+    "rate_all": 1.0847955113547134,
+    "rate_generation3": 1.4038453675039089,
+    "share_generation3": 0.03182683489065313,
+    "share_stream_once": 0.4595991463619279,
+    "length_two_decades": 18.5
+   },
+   "fractions_at_levels": {
+    "0.1": [
+     0.491,
+     0.342,
+     0.135,
+     0.032
+    ],
+    "0.2": [
+     0.278,
+     0.352,
+     0.256,
+     0.115
+    ],
+    "0.35": [
+     0.129,
+     0.264,
+     0.316,
+     0.291
+    ],
+    "0.5": [
+     0.06,
+     0.17,
+     0.284,
+     0.486
+    ]
+   },
+   "gen1_xi_at_levels": {
+    "0.1": 0.5983769282645569,
+    "0.2": 0.606684485617803,
+    "0.5": 0.6399202976147075
+   },
+   "gen1_Tpar_at_levels": {
+    "0.1": 0.8111142616088064,
+    "0.2": 0.7401039033642642,
+    "0.5": 0.6289561656519613
+   },
+   "max_abs_generation_fraction_difference_from_vhs": 0.0014209609605957407,
+   "vhs_fractions_at_levels": {
+    "0.1": [
+     0.49,
+     0.342,
+     0.135,
+     0.032
+    ],
+    "0.2": [
+     0.278,
+     0.351,
+     0.256,
+     0.115
+    ],
+    "0.35": [
+     0.129,
+     0.264,
+     0.316,
+     0.291
+    ],
+    "0.5": [
+     0.06,
+     0.17,
+     0.284,
+     0.486
+    ]
+   },
+   "vhs_gen1_xi_at_levels": {
+    "0.1": 0.5985378390406181,
+    "0.2": 0.6071771137856321,
+    "0.5": 0.6394727705367059
+   },
+   "table": {
+    "delta": 8.282709441650317,
+    "TparTperp_max": 2.7034368749883426,
+    "rh_pair_max": 22.46078325635519,
+    "beta_n05": 0.044206705086896676,
+    "beta_n20": 0.13434295216111397
+   },
+   "table_vhs": {
+    "delta": 8.30166205952624,
+    "TparTperp_max": 2.7045391039590623,
+    "rh_pair_max": 22.474751451928427,
+    "beta_n05": 0.04435795739017946,
+    "beta_n20": 0.13453462439203306
+   },
+   "cascade": {
+    "rate_all": 1.0853905283872005,
+    "rate_primaries": 1.3782366618063773,
+    "share_recoil": 0.3987408534577664,
+    "mean_speed_over_u1": 0.40752694130837447
+   }
+  }
+ }
+}

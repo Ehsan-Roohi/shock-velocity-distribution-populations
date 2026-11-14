@@ -1,0 +1,26 @@
+{
+ "takata_area": 2.58966377,
+ "takata_peak": 2.1382,
+ "takata_peak_at": 0.2202,
+ "takata_value_at_corner": 1.034968085106383,
+ "cases": {
+  "M8": {
+   "nstar": 0.625830062547721,
+   "unscattered_fraction": NaN,
+   "peak": 2.0418610669863355,
+   "peak_at": 0.3150914826925379,
+   "rms_over_peak": 0.03461946855191163,
+   "max_abs_over_peak": 0.07320531097221916,
+   "value_at_corner": 1.5691527957627283
+  },
+  "M12": {
+   "nstar": 0.609738099344193,
+   "unscattered_fraction": NaN,
+   "peak": 2.0486510086350034,
+   "peak_at": 0.2755996061912412,
+   "rms_over_peak": 0.031138989667534808,
+   "max_abs_over_peak": 0.07116311780312819,
+   "value_at_corner": 1.420928102361019
+  }
+ }
+}

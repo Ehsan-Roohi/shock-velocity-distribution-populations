@@ -1,0 +1,3278 @@
+{
+ "BGK|M3_from_M2p5_M4": {
+  "mach": 3.0,
+  "sources": [
+   2.5,
+   4.0
+  ],
+  "kind": "interp",
+  "g_max": 5.143213455653039,
+  "q_L2": 2.098383038650553,
+  "sigma_L2": 6.4079878449464776,
+  "T_max": 0.9707964096957936,
+  "monotone": true,
+  "width_ratio": 0.9287014795176551,
+  "flux_mass": 0.07594660164826905,
+  "flux_mom": 1.4398159200712302,
+  "flux_energy": 1.4294400945553676,
+  "positivity": {
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 0.0,
+   "g_min": 4.4960047488556386e-15,
+   "h_negmass": 0.0,
+   "h_min": 8.173941404389363e-15
+  },
+  "xspace_nstar_rms": 1.3425099863474315,
+  "xspace_q_rms": 3.575208584924458,
+  "xspace_sigma_rms": 2.9481263759011083,
+  "xspace_T_rms": 1.6301845110879327
+ },
+ "BGK|M3_from_M2p5_M4|hybrid": {
+  "mach": 3.0,
+  "sources": [
+   2.5,
+   4.0
+  ],
+  "kind": "interp",
+  "g_max": 2.8625351148298694,
+  "q_L2": 4.804971306664178,
+  "sigma_L2": 4.812248255070976,
+  "T_max": 2.5514981230743623,
+  "monotone": true,
+  "width_ratio": 0.9440628587673237,
+  "flux_mass": 0.07851154502022117,
+  "flux_mom": 1.2359448241081816,
+  "flux_energy": 1.0057583057895503,
+  "positivity": {
+   "beam_fraction_range": [
+    0.021762963173733205,
+    0.6713132479759785
+   ],
+   "beam_Tpar_min": 0.27144628813106814,
+   "beam_Tperp_min": 0.27221228319428,
+   "beam_clipped": false,
+   "remainder_g_negmass": 7.64248961771764e-24,
+   "remainder_g_min": -3.87076018889262e-22,
+   "remainder_h_negmass": 2.521730466074852e-24,
+   "remainder_h_min": -1.221915675313797e-22,
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 0.0,
+   "g_min": 4.6042541249117666e-15,
+   "h_negmass": 0.0,
+   "h_min": 8.181174438870693e-15
+  },
+  "populations_min": {
+   "mass_fraction": 0.01377259691519039,
+   "Tpar": 0.27144628813106814,
+   "Tperp": 0.27221228319428,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 2.6763395711271634,
+  "xspace_q_rms": 4.477773317701451,
+  "xspace_sigma_rms": 4.249069526119622,
+  "xspace_T_rms": 3.108069946545831
+ },
+ "BGK|M4_from_M3_M5": {
+  "mach": 4.0,
+  "sources": [
+   3.0,
+   5.0
+  ],
+  "kind": "interp",
+  "g_max": 4.2588875629823715,
+  "q_L2": 0.995400039710024,
+  "sigma_L2": 2.79225250219587,
+  "T_max": 0.5979314025161766,
+  "monotone": true,
+  "width_ratio": 0.968268037460097,
+  "flux_mass": 0.11575318121201938,
+  "flux_mom": 0.7826722564691968,
+  "flux_energy": 0.8510962989086934,
+  "positivity": {
+   "weight_low": 0.31640625,
+   "weight_high": 0.68359375,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.5837508319382795,
+  "xspace_q_rms": 1.3624562386827401,
+  "xspace_sigma_rms": 1.2650254806029122,
+  "xspace_T_rms": 0.6642631147733045
+ },
+ "BGK|M4_from_M3_M5|hybrid": {
+  "mach": 4.0,
+  "sources": [
+   3.0,
+   5.0
+  ],
+  "kind": "interp",
+  "g_max": 2.361259341869097,
+  "q_L2": 2.5873392787810574,
+  "sigma_L2": 2.029928638457809,
+  "T_max": 2.1474343503535493,
+  "monotone": true,
+  "width_ratio": 0.9798064503042307,
+  "flux_mass": 0.11543281312296205,
+  "flux_mom": 0.636667397836832,
+  "flux_energy": 0.7202404696266318,
+  "positivity": {
+   "beam_fraction_range": [
+    0.019055427155254358,
+    0.6017084745803638
+   ],
+   "beam_Tpar_min": 0.18653513701930607,
+   "beam_Tperp_min": 0.18796315434515543,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.022953317617641e-31,
+   "remainder_g_min": -1.317949628266383e-29,
+   "remainder_h_negmass": 5.971567876383683e-32,
+   "remainder_h_min": -3.752396141275585e-30,
+   "weight_low": 0.31640625,
+   "weight_high": 0.68359375,
+   "g_negmass": 3.3756276061133745e-69,
+   "g_min": -2.422925318809918e-67,
+   "h_negmass": 1.6920661985859006e-69,
+   "h_min": -1.1166005081497478e-67
+  },
+  "populations_min": {
+   "mass_fraction": 0.017431833055490092,
+   "Tpar": 0.18653513701930607,
+   "Tperp": 0.18796315434515543,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.828128438285855,
+  "xspace_q_rms": 2.821079861199363,
+  "xspace_sigma_rms": 1.9357702161340808,
+  "xspace_T_rms": 1.4158054093145174
+ },
+ "BGK|M5_from_M4_M6_gl3fine": {
+  "mach": 5.0,
+  "sources": [
+   4.0,
+   6.0
+  ],
+  "kind": "interp",
+  "g_max": 2.2153415031090935,
+  "q_L2": 0.8953412134741627,
+  "sigma_L2": 2.4170512409870026,
+  "T_max": 0.3652361627832439,
+  "monotone": true,
+  "width_ratio": 0.9762141717990845,
+  "flux_mass": 0.2917799600266391,
+  "flux_mom": 0.5028085363823154,
+  "flux_energy": 0.2341546413322737,
+  "positivity": {
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.45896825620238463,
+  "xspace_q_rms": 0.4071350060614401,
+  "xspace_sigma_rms": 1.1696166282104763,
+  "xspace_T_rms": 0.3500284690606501
+ },
+ "BGK|M5_from_M4_M6_gl3fine|hybrid": {
+  "mach": 5.0,
+  "sources": [
+   4.0,
+   6.0
+  ],
+  "kind": "interp",
+  "g_max": 0.9802896101038927,
+  "q_L2": 1.715624023477211,
+  "sigma_L2": 2.218966134785981,
+  "T_max": 0.9272170380724677,
+  "monotone": true,
+  "width_ratio": 0.9823444977419834,
+  "flux_mass": 0.2968163085465547,
+  "flux_mom": 0.48396605186171726,
+  "flux_energy": 0.32865399677390883,
+  "positivity": {
+   "beam_fraction_range": [
+    0.016561954148755127,
+    0.554338500372977
+   ],
+   "beam_Tpar_min": 0.13668246558238273,
+   "beam_Tperp_min": 0.14082460641848207,
+   "beam_clipped": false,
+   "remainder_g_negmass": 7.64248961771764e-24,
+   "remainder_g_min": -3.87076018889262e-22,
+   "remainder_h_negmass": 2.521730466074852e-24,
+   "remainder_h_min": -1.221915675313797e-22,
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 2.686756968807616e-24,
+   "g_min": -1.2961124628128314e-22,
+   "h_negmass": 8.8632259682493e-25,
+   "h_min": -4.073530780423896e-23
+  },
+  "populations_min": {
+   "mass_fraction": 0.010939428741056483,
+   "Tpar": 0.13668246558238273,
+   "Tperp": 0.0,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.47657057149775434,
+  "xspace_q_rms": 1.1632021951910176,
+  "xspace_sigma_rms": 1.3842760646102568,
+  "xspace_T_rms": 0.5546466195082537
+ },
+ "BGK|M6_gl3fine_from_M5_M8": {
+  "mach": 6.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "interp",
+  "g_max": 1.7149177547918517,
+  "q_L2": 0.25678222854919164,
+  "sigma_L2": 0.49895212047434173,
+  "T_max": 0.6477597518613911,
+  "monotone": true,
+  "width_ratio": 0.997119430328628,
+  "flux_mass": 0.1539481126430653,
+  "flux_mom": 0.2478936143607502,
+  "flux_energy": 0.38927961948893586,
+  "positivity": {
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.06984636661142907,
+  "xspace_q_rms": 0.36478970535523925,
+  "xspace_sigma_rms": 0.46001746959816125,
+  "xspace_T_rms": 0.29553046837031954
+ },
+ "BGK|M6_gl3fine_from_M5_M8|hybrid": {
+  "mach": 6.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "interp",
+  "g_max": 0.4109202502179997,
+  "q_L2": 0.34335528643840907,
+  "sigma_L2": 0.37748829205063344,
+  "T_max": 0.20095597517052838,
+  "monotone": true,
+  "width_ratio": 1.001449976585585,
+  "flux_mass": 0.1464719422225036,
+  "flux_mom": 0.2363500723576939,
+  "flux_energy": 0.3093432642977456,
+  "positivity": {
+   "beam_fraction_range": [
+    0.015610357811252678,
+    0.5316299224613388
+   ],
+   "beam_Tpar_min": 0.10761882011722472,
+   "beam_Tperp_min": 0.10843831540528445,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.022953317617641e-31,
+   "remainder_g_min": -1.317949628266383e-29,
+   "remainder_h_negmass": 5.971567876383683e-32,
+   "remainder_h_min": -3.752396141275585e-30,
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 1.0085956081584145e-31,
+   "g_min": -6.39330598258977e-30,
+   "h_negmass": 2.97407839461711e-32,
+   "h_min": -1.8138087365593815e-30
+  },
+  "populations_min": {
+   "mass_fraction": 0.011337216129909494,
+   "Tpar": 0.10761882011722472,
+   "Tperp": 0.03853062040301961,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.13153352015033848,
+  "xspace_q_rms": 0.39912646105341915,
+  "xspace_sigma_rms": 0.3821807690543727,
+  "xspace_T_rms": 0.17492919794931266
+ },
+ "BGK|M8_from_M6_gl3fine_M12_gl3medium": {
+  "mach": 8.0,
+  "sources": [
+   6.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 4.351556956314604,
+  "q_L2": 1.6758400619070708,
+  "sigma_L2": 3.2311475922948043,
+  "T_max": 0.6629086448292387,
+  "monotone": true,
+  "width_ratio": 0.9700204494221851,
+  "flux_mass": 0.6443865964444795,
+  "flux_mom": 0.5791988004527626,
+  "flux_energy": 0.2563450378307075,
+  "positivity": {
+   "weight_low": 0.41666666666666674,
+   "weight_high": 0.5833333333333333,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.6079402824475976,
+  "xspace_q_rms": 0.748350436905927,
+  "xspace_sigma_rms": 1.6275970627399172,
+  "xspace_T_rms": 0.3562880984713445
+ },
+ "BGK|M8_from_M6_gl3fine_M12_gl3medium|hybrid": {
+  "mach": 8.0,
+  "sources": [
+   6.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 1.6966259273468836,
+  "q_L2": 2.136960937989554,
+  "sigma_L2": 3.123050279649809,
+  "T_max": 1.284640700036097,
+  "monotone": true,
+  "width_ratio": 0.9744340949247485,
+  "flux_mass": 0.6536612666743546,
+  "flux_mom": 0.5527360322652886,
+  "flux_energy": 0.40508138610501065,
+  "positivity": {
+   "beam_fraction_range": [
+    0.014215453144854482,
+    0.4829693935116093
+   ],
+   "beam_Tpar_min": 0.07007409397813565,
+   "beam_Tperp_min": 0.07229148711323555,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.0370447457236057e-37,
+   "remainder_g_min": -8.192995046350278e-36,
+   "remainder_h_negmass": 2.6013418290293114e-38,
+   "remainder_h_min": -1.9776700778879527e-36,
+   "weight_low": 0.41666666666666674,
+   "weight_high": 0.5833333333333333,
+   "g_negmass": 4.3289862457851015e-38,
+   "g_min": -3.328852650350448e-36,
+   "h_negmass": 1.0857623581935227e-38,
+   "h_min": -8.017412789317939e-37
+  },
+  "populations_min": {
+   "mass_fraction": 0.012864628650160904,
+   "Tpar": 0.07007409397813565,
+   "Tperp": 0.07229148711323555,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.5948725753068272,
+  "xspace_q_rms": 1.0629124653528264,
+  "xspace_sigma_rms": 1.6305615342782487,
+  "xspace_T_rms": 0.43629352580165803
+ },
+ "BGK|M8_from_M5_M6_gl3fine": {
+  "mach": 8.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 3.9701163661802985,
+  "q_L2": 4.175639879707355,
+  "sigma_L2": 4.549756218184436,
+  "T_max": 1.1409256213296541,
+  "monotone": true,
+  "width_ratio": 0.964435627098777,
+  "flux_mass": 1.113207202513744,
+  "flux_mom": 0.7363802809669417,
+  "flux_energy": 1.1374202660861643,
+  "positivity": {
+   "weight_low": -0.9943181818181814,
+   "weight_high": 1.9943181818181814,
+   "g_negmass": 0.06777895794853389,
+   "g_min": -0.23413850234760927,
+   "h_negmass": 0.13159792794368705,
+   "h_min": -0.4358986720628452
+  },
+  "xspace_nstar_rms": 0.7646657826302234,
+  "xspace_q_rms": 2.12340479087507,
+  "xspace_sigma_rms": 2.359360402468709,
+  "xspace_T_rms": 0.41349018081359507
+ },
+ "BGK|M8_from_M5_M6_gl3fine|hybrid": {
+  "mach": 8.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 1.4055993091518408,
+  "q_L2": 3.378435218230688,
+  "sigma_L2": 4.75443409771756,
+  "T_max": 0.5942666215442829,
+  "monotone": true,
+  "width_ratio": 0.9597535341035544,
+  "flux_mass": 1.1129466439360414,
+  "flux_mom": 0.7957492326958082,
+  "flux_energy": 1.1069144268790132,
+  "positivity": {
+   "beam_fraction_range": [
+    0.016093108904867745,
+    0.49473991351750335
+   ],
+   "beam_Tpar_min": 0.07384979547370074,
+   "beam_Tperp_min": 0.07700874220002712,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.022953317617641e-31,
+   "remainder_g_min": -1.317949628266383e-29,
+   "remainder_h_negmass": 5.971567876383683e-32,
+   "remainder_h_min": -3.752396141275585e-30,
+   "weight_low": -0.9943181818181814,
+   "weight_high": 1.9943181818181814,
+   "g_negmass": 0.006245610125006935,
+   "g_min": -0.022200683675309724,
+   "h_negmass": 0.026472903152675798,
+   "h_min": -0.0706094447020549
+  },
+  "populations_min": {
+   "mass_fraction": 0.010951580122765574,
+   "Tpar": 0.07384979547370074,
+   "Tperp": 0.0,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.8471240189761985,
+  "xspace_q_rms": 1.7667795998678888,
+  "xspace_sigma_rms": 2.4270947212339156,
+  "xspace_T_rms": 0.7099269274877423
+ },
+ "BGK|M12_gl3medium_from_M6_gl3fine_M8": {
+  "mach": 12.0,
+  "sources": [
+   6.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 7.856235052518917,
+  "q_L2": 1.4093880037079898,
+  "sigma_L2": 1.8999054095034562,
+  "T_max": 1.8882384165210861,
+  "monotone": true,
+  "width_ratio": 1.0231366198629976,
+  "flux_mass": 0.5193664571075285,
+  "flux_mom": 0.2092464515905501,
+  "flux_energy": 0.7409363797596713,
+  "positivity": {
+   "weight_low": -0.7142857142857144,
+   "weight_high": 1.7142857142857144,
+   "g_negmass": 0.006905456032208412,
+   "g_min": -0.017107886363949464,
+   "h_negmass": 0.01681803990893201,
+   "h_min": -0.04353208860699194
+  },
+  "xspace_nstar_rms": 0.4579712400390776,
+  "xspace_q_rms": 1.0086764316355992,
+  "xspace_sigma_rms": 1.1089155064686769,
+  "xspace_T_rms": 0.5746204550809817
+ },
+ "BGK|M12_gl3medium_from_M6_gl3fine_M8|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   6.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 4.593074287367817,
+  "q_L2": 1.9675477532510464,
+  "sigma_L2": 1.783829274420879,
+  "T_max": 2.4757964697135875,
+  "monotone": true,
+  "width_ratio": 1.014859550448938,
+  "flux_mass": 0.5274289944266597,
+  "flux_mom": 0.27281526957601,
+  "flux_energy": 1.061274549930613,
+  "positivity": {
+   "beam_fraction_range": [
+    0.014365299623688677,
+    0.4927779056167971
+   ],
+   "beam_Tpar_min": 0.053758475443589915,
+   "beam_Tperp_min": 0.0492031484343584,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.0370447457236057e-37,
+   "remainder_g_min": -8.192995046350278e-36,
+   "remainder_h_negmass": 2.6013418290293114e-38,
+   "remainder_h_min": -1.9776700778879527e-36,
+   "weight_low": -0.7142857142857144,
+   "weight_high": 1.7142857142857144,
+   "g_negmass": 0.003945439459299409,
+   "g_min": -0.007724283766019451,
+   "h_negmass": 0.011780421637897899,
+   "h_min": -0.02757139039316841
+  },
+  "populations_min": {
+   "mass_fraction": 0.012171813477656399,
+   "Tpar": 0.053758475443589915,
+   "Tperp": 0.0492031484343584,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000004
+   ]
+  },
+  "xspace_nstar_rms": 0.46785949979287017,
+  "xspace_q_rms": 1.3950841950519415,
+  "xspace_sigma_rms": 1.2838079549213017,
+  "xspace_T_rms": 0.7554439712120825
+ },
+ "BGK|M12_gl3medium_from_M5_M8": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 8.979064409221097,
+  "q_L2": 0.3887407858125465,
+  "sigma_L2": 0.4025847229644488,
+  "T_max": 1.3602736875434722,
+  "monotone": true,
+  "width_ratio": 1.0099238678878535,
+  "flux_mass": 0.16576237042777997,
+  "flux_mom": 0.11276295598290353,
+  "flux_energy": 0.2689008955072403,
+  "positivity": {
+   "weight_low": -0.35612535612535634,
+   "weight_high": 1.3561253561253563,
+   "g_negmass": 0.08034745753015442,
+   "g_min": -0.1820737150135171,
+   "h_negmass": 0.17487725133194604,
+   "h_min": -0.43587623008070386
+  },
+  "xspace_nstar_rms": 0.19775010482959188,
+  "xspace_q_rms": 0.8200648004721418,
+  "xspace_sigma_rms": 0.6070300498171404,
+  "xspace_T_rms": 0.5317085144160758
+ },
+ "BGK|M12_gl3medium_from_M5_M8|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 4.721802683670707,
+  "q_L2": 0.8685102630201311,
+  "sigma_L2": 0.37786729725881957,
+  "T_max": 2.506621527277678,
+  "monotone": true,
+  "width_ratio": 1.0009495773851225,
+  "flux_mass": 0.1818959993638014,
+  "flux_mom": 0.2398564026709904,
+  "flux_energy": 0.7624123342281575,
+  "positivity": {
+   "beam_fraction_range": [
+    0.014723492025887346,
+    0.4884926069738583
+   ],
+   "beam_Tpar_min": 0.05306211204312917,
+   "beam_Tperp_min": 0.05012875542272632,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.022953317617641e-31,
+   "remainder_g_min": -1.317949628266383e-29,
+   "remainder_h_negmass": 5.971567876383683e-32,
+   "remainder_h_min": -3.752396141275585e-30,
+   "weight_low": -0.35612535612535634,
+   "weight_high": 1.3561253561253563,
+   "g_negmass": 0.01476913328776918,
+   "g_min": -0.021434012072405577,
+   "h_negmass": 0.05292772619614678,
+   "h_min": -0.08616584504000695
+  },
+  "populations_min": {
+   "mass_fraction": 0.011913328574234766,
+   "Tpar": 0.05306211204312917,
+   "Tperp": 0.05012875542272632,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000004
+   ]
+  },
+  "xspace_nstar_rms": 0.3456342176973329,
+  "xspace_q_rms": 1.2686324180357187,
+  "xspace_sigma_rms": 1.130078637546658,
+  "xspace_T_rms": 0.9063994787773965
+ },
+ "BGK|M12_gl3medium_from_M5_M6_gl3fine": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 13.385410336253646,
+  "q_L2": 6.17419595229369,
+  "sigma_L2": 5.584481583958301,
+  "T_max": 0.7847499007949118,
+  "monotone": true,
+  "width_ratio": 0.9658024220763097,
+  "flux_mass": 1.6002008882725405,
+  "flux_mom": 0.8396777010258427,
+  "flux_energy": 1.9085649147028483,
+  "positivity": {
+   "weight_low": -1.7045454545454546,
+   "weight_high": 2.7045454545454546,
+   "g_negmass": 0.6315711915778677,
+   "g_min": -1.415461401486205,
+   "h_negmass": 1.5602797476413794,
+   "h_min": -3.321826758674852
+  },
+  "xspace_nstar_rms": 0.8238456013907831,
+  "xspace_q_rms": 3.3718055272983225,
+  "xspace_sigma_rms": 3.0628673754723383,
+  "xspace_T_rms": 0.7001555060598345
+ },
+ "BGK|M12_gl3medium_from_M5_M6_gl3fine|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 5.541244931140192,
+  "q_L2": 4.4190710479226025,
+  "sigma_L2": 6.076021499225269,
+  "T_max": 2.607377729442287,
+  "monotone": true,
+  "width_ratio": 0.9545891174307402,
+  "flux_mass": 1.5995745158674968,
+  "flux_mom": 1.0721317229046345,
+  "flux_energy": 1.833634304052001,
+  "positivity": {
+   "beam_fraction_range": [
+    0.01607973871239412,
+    0.4754059922022894
+   ],
+   "beam_Tpar_min": 0.042474384127734965,
+   "beam_Tperp_min": 0.053633440065046806,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.022953317617641e-31,
+   "remainder_g_min": -1.317949628266383e-29,
+   "remainder_h_negmass": 5.971567876383683e-32,
+   "remainder_h_min": -3.752396141275585e-30,
+   "weight_low": -1.7045454545454546,
+   "weight_high": 2.7045454545454546,
+   "g_negmass": 0.10497362155120413,
+   "g_min": -0.14019893392645477,
+   "h_negmass": 0.38192853847697644,
+   "h_min": -0.633839210430354
+  },
+  "populations_min": {
+   "mass_fraction": 0.010934610735370123,
+   "Tpar": 0.042474384127734965,
+   "Tperp": 0.0,
+   "mass_fraction_sum_range": [
+    0.9999999999999993,
+    1.0000000000000007
+   ]
+  },
+  "xspace_nstar_rms": 1.1360490352726318,
+  "xspace_q_rms": 2.9172538900554654,
+  "xspace_sigma_rms": 3.5172899834627454,
+  "xspace_T_rms": 1.6218666883423114
+ },
+ "DSMC, omega=1|M3 from 2,4": {
+  "mach": 3.0,
+  "sources": [
+   2.0,
+   4.0
+  ],
+  "kind": "interp",
+  "g_max": 13.981707971904079,
+  "q_L2": 5.255954274551936,
+  "sigma_L2": 21.851581482574744,
+  "T_max": 3.1445333609508976,
+  "monotone": true,
+  "width_ratio": 0.8108246656929039,
+  "flux_mass": 0.2799692963649125,
+  "flux_mom": 4.449770465351666,
+  "flux_energy": 4.353989842856287,
+  "positivity": {
+   "weight_low": 0.2592592592592592,
+   "weight_high": 0.7407407407407408,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 3.6784574600974986,
+  "xspace_q_rms": 11.080986659010534,
+  "xspace_sigma_rms": 9.177830431387548,
+  "xspace_T_rms": 5.243868804595066
+ },
+ "DSMC, omega=1|M3 from 2,4|hybrid": {
+  "mach": 3.0,
+  "sources": [
+   2.0,
+   4.0
+  ],
+  "kind": "interp",
+  "g_max": 3.0892683769108995,
+  "q_L2": 5.589133709641182,
+  "sigma_L2": 16.240906305959513,
+  "T_max": 3.7721657802636552,
+  "monotone": true,
+  "width_ratio": 0.7350655673849393,
+  "flux_mass": 0.37840116198299967,
+  "flux_mom": 4.482517867573854,
+  "flux_energy": 3.8064175708219627,
+  "positivity": {
+   "beam_fraction_range": [
+    0.035761248004759195,
+    0.888045884727534
+   ],
+   "beam_Tpar_min": 0.255496519482048,
+   "beam_Tperp_min": 0.2579371665392805,
+   "beam_clipped": false,
+   "remainder_g_negmass": 4.111870019881471e-07,
+   "remainder_g_min": -2.062355544841647e-05,
+   "remainder_h_negmass": 1.381720897701241e-06,
+   "remainder_h_min": -4.2619182573535784e-05,
+   "weight_low": 0.2592592592592592,
+   "weight_high": 0.7407407407407408,
+   "g_negmass": 1.0660402502508949e-07,
+   "g_min": -3.011873769120426e-06,
+   "h_negmass": 5.637077291165892e-07,
+   "h_min": -1.1146408380352278e-05
+  },
+  "populations_min": {
+   "mass_fraction": 0.035761248004759195,
+   "Tpar": 0.255496519482048,
+   "Tperp": 0.2579371665392805,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 4.68135744078416,
+  "xspace_q_rms": 9.724146839433338,
+  "xspace_sigma_rms": 10.581670972069347,
+  "xspace_T_rms": 8.633542546258488
+ },
+ "DSMC, omega=1|M4 from 3,5": {
+  "mach": 4.0,
+  "sources": [
+   3.0,
+   5.0
+  ],
+  "kind": "interp",
+  "g_max": 7.228209786180628,
+  "q_L2": 0.7846230940361577,
+  "sigma_L2": 2.754673319698824,
+  "T_max": 0.6522394652310892,
+  "monotone": true,
+  "width_ratio": 0.9751834378457345,
+  "flux_mass": 0.19739286863809102,
+  "flux_mom": 0.8007056911206512,
+  "flux_energy": 0.8401422590031293,
+  "positivity": {
+   "weight_low": 0.31640625,
+   "weight_high": 0.68359375,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.4906444347771949,
+  "xspace_q_rms": 1.1139005665588089,
+  "xspace_sigma_rms": 1.047948014403715,
+  "xspace_T_rms": 0.4650839221920466
+ },
+ "DSMC, omega=1|M4 from 3,5|hybrid": {
+  "mach": 4.0,
+  "sources": [
+   3.0,
+   5.0
+  ],
+  "kind": "interp",
+  "g_max": 1.1660786476783667,
+  "q_L2": 1.4208808476075752,
+  "sigma_L2": 1.772728066245843,
+  "T_max": 1.031542467121823,
+  "monotone": true,
+  "width_ratio": 0.9627895617658059,
+  "flux_mass": 0.1771060951009762,
+  "flux_mom": 0.6979170751117536,
+  "flux_energy": 0.5633456892907507,
+  "positivity": {
+   "beam_fraction_range": [
+    0.03356885357823252,
+    0.8798858718893192
+   ],
+   "beam_Tpar_min": 0.17089237852538092,
+   "beam_Tperp_min": 0.17309884491472743,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.472506763547034e-08,
+   "remainder_g_min": -5.799099427423903e-07,
+   "remainder_h_negmass": 6.859446491122711e-09,
+   "remainder_h_min": -2.6976290702672454e-07,
+   "weight_low": 0.31640625,
+   "weight_high": 0.68359375,
+   "g_negmass": 7.82316557888702e-09,
+   "g_min": -1.3234651664229156e-07,
+   "h_negmass": 2.865148291389874e-09,
+   "h_min": -9.514800537197102e-08
+  },
+  "populations_min": {
+   "mass_fraction": 0.03356885357823252,
+   "Tpar": 0.17089237852538092,
+   "Tperp": 0.17309884491472743,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.7301328363409677,
+  "xspace_q_rms": 1.171277915159058,
+  "xspace_sigma_rms": 0.8168272291942918,
+  "xspace_T_rms": 0.6789248323432686
+ },
+ "DSMC, omega=1|M5 from 4,6": {
+  "mach": 5.0,
+  "sources": [
+   4.0,
+   6.0
+  ],
+  "kind": "interp",
+  "g_max": 4.4126141481500945,
+  "q_L2": 0.17152345790624787,
+  "sigma_L2": 0.8605352488115595,
+  "T_max": 0.15421795956824663,
+  "monotone": true,
+  "width_ratio": 0.9958603657670655,
+  "flux_mass": 0.21670500212738197,
+  "flux_mom": 0.32586367526674653,
+  "flux_energy": 0.3754575230013879,
+  "positivity": {
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.13605563495789097,
+  "xspace_q_rms": 0.3366749402510712,
+  "xspace_sigma_rms": 0.5713067051298176,
+  "xspace_T_rms": 0.21848810750376418
+ },
+ "DSMC, omega=1|M5 from 4,6|hybrid": {
+  "mach": 5.0,
+  "sources": [
+   4.0,
+   6.0
+  ],
+  "kind": "interp",
+  "g_max": 0.5499669165702259,
+  "q_L2": 0.6384015044735123,
+  "sigma_L2": 0.5920811386403394,
+  "T_max": 0.4810436884775001,
+  "monotone": true,
+  "width_ratio": 0.9925199649110582,
+  "flux_mass": 0.22016182277186935,
+  "flux_mom": 0.2891904871622275,
+  "flux_energy": 0.21995749510614893,
+  "positivity": {
+   "beam_fraction_range": [
+    0.029390931401743252,
+    0.8695581220248043
+   ],
+   "beam_Tpar_min": 0.11933534618952676,
+   "beam_Tperp_min": 0.1206461745852982,
+   "beam_clipped": false,
+   "remainder_g_negmass": 6.475264217035983e-11,
+   "remainder_g_min": -1.7663894900328746e-09,
+   "remainder_h_negmass": 3.7624544370974854e-11,
+   "remainder_h_min": -1.0112927352837135e-09,
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 2.277396753284429e-11,
+   "g_min": -5.909296016075128e-10,
+   "h_negmass": 1.3218116156359178e-11,
+   "h_min": -3.377277127718896e-10
+  },
+  "populations_min": {
+   "mass_fraction": 0.029390931401743252,
+   "Tpar": 0.11933534618952676,
+   "Tperp": 0.1206461745852982,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.25052807738650024,
+  "xspace_q_rms": 0.869578888046423,
+  "xspace_sigma_rms": 0.6350539792168104,
+  "xspace_T_rms": 0.40675600630318176
+ },
+ "DSMC, omega=1|M6 from 5,8": {
+  "mach": 6.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "interp",
+  "g_max": 5.915022348442036,
+  "q_L2": 0.11315147516588688,
+  "sigma_L2": 0.3825865120332971,
+  "T_max": 0.16935590638338555,
+  "monotone": true,
+  "width_ratio": 1.000367310550614,
+  "flux_mass": 0.1889422234873539,
+  "flux_mom": 0.21741116617650658,
+  "flux_energy": 0.26990407532134775,
+  "positivity": {
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.07823760573898157,
+  "xspace_q_rms": 0.44582547354022556,
+  "xspace_sigma_rms": 0.5001647901389886,
+  "xspace_T_rms": 0.3255140201853488
+ },
+ "DSMC, omega=1|M6 from 5,8|hybrid": {
+  "mach": 6.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "interp",
+  "g_max": 0.5520816636010859,
+  "q_L2": 0.539524110632015,
+  "sigma_L2": 0.2519868010442291,
+  "T_max": 0.179320131260202,
+  "monotone": true,
+  "width_ratio": 0.9975938476636624,
+  "flux_mass": 0.18947930568289362,
+  "flux_mom": 0.1857209962621953,
+  "flux_energy": 0.1745399962644667,
+  "positivity": {
+   "beam_fraction_range": [
+    0.027845601553099817,
+    0.8611043654745929
+   ],
+   "beam_Tpar_min": 0.08679711129765756,
+   "beam_Tperp_min": 0.0879532551547888,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.541771335908437e-12,
+   "remainder_g_min": -4.809840852533305e-11,
+   "remainder_h_negmass": 7.991108686972533e-13,
+   "remainder_h_min": -2.452848968786221e-11,
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 7.628221479458069e-13,
+   "g_min": -2.312006599964364e-11,
+   "h_negmass": 3.9535019319314704e-13,
+   "h_min": -1.1789929870603985e-11
+  },
+  "populations_min": {
+   "mass_fraction": 0.027845601553099817,
+   "Tpar": 0.08679711129765756,
+   "Tperp": 0.0879532551547888,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.20095523381149244,
+  "xspace_q_rms": 0.9142826927190152,
+  "xspace_sigma_rms": 0.7038277269558785,
+  "xspace_T_rms": 0.5137839517936811
+ },
+ "DSMC, omega=1|M8 from 6,12": {
+  "mach": 8.0,
+  "sources": [
+   6.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 12.618743248059209,
+  "q_L2": 0.06978952375480794,
+  "sigma_L2": 0.3590686910942734,
+  "T_max": 0.0858958888455632,
+  "monotone": true,
+  "width_ratio": 1.000770727030834,
+  "flux_mass": 0.19449301687382015,
+  "flux_mom": 0.17469357719657186,
+  "flux_energy": 0.22693267909250636,
+  "positivity": {
+   "weight_low": 0.41666666666666674,
+   "weight_high": 0.5833333333333333,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.0735633580140095,
+  "xspace_q_rms": 0.43315333950871,
+  "xspace_sigma_rms": 0.46797278785935165,
+  "xspace_T_rms": 0.3027570662188036
+ },
+ "DSMC, omega=1|M8 from 6,12|hybrid": {
+  "mach": 8.0,
+  "sources": [
+   6.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 1.2935697763112337,
+  "q_L2": 0.7151814408281412,
+  "sigma_L2": 0.3064695193161074,
+  "T_max": 0.41791262003111884,
+  "monotone": true,
+  "width_ratio": 0.9978726670311513,
+  "flux_mass": 0.20406706322544377,
+  "flux_mom": 0.15600709742509267,
+  "flux_energy": 0.17077390726216723,
+  "positivity": {
+   "beam_fraction_range": [
+    0.021123178767020554,
+    0.846078351314268
+   ],
+   "beam_Tpar_min": 0.051115879502612496,
+   "beam_Tperp_min": 0.05227023528903036,
+   "beam_clipped": false,
+   "remainder_g_negmass": 4.1749655355202777e-14,
+   "remainder_g_min": -1.5563691142686653e-12,
+   "remainder_h_negmass": 1.8796559918209387e-14,
+   "remainder_h_min": -6.901672476188032e-13,
+   "weight_low": 0.41666666666666674,
+   "weight_high": 0.5833333333333333,
+   "g_negmass": 1.738838237854128e-14,
+   "g_min": -6.304126594069667e-13,
+   "h_negmass": 7.822670498876282e-15,
+   "h_min": -2.7888313535083706e-13
+  },
+  "populations_min": {
+   "mass_fraction": 0.021123178767020554,
+   "Tpar": 0.051115879502612496,
+   "Tperp": 0.05227023528903036,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.22613785444749201,
+  "xspace_q_rms": 0.9405671414504039,
+  "xspace_sigma_rms": 0.7442119314404492,
+  "xspace_T_rms": 0.5225455091682841
+ },
+ "DSMC, omega=1|M10 from 8,12": {
+  "mach": 10.0,
+  "sources": [
+   8.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 4.129692598140953,
+  "q_L2": 0.03409420136535781,
+  "sigma_L2": 0.11723502386141138,
+  "T_max": 0.04513945660498148,
+  "monotone": true,
+  "width_ratio": 1.0024391924650824,
+  "flux_mass": 0.18927495417764284,
+  "flux_mom": 0.1100206074476695,
+  "flux_energy": 0.16922977586195653,
+  "positivity": {
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.08387892716447598,
+  "xspace_q_rms": 0.5211254221298954,
+  "xspace_sigma_rms": 0.46590319051618717,
+  "xspace_T_rms": 0.3632038353489477
+ },
+ "DSMC, omega=1|M10 from 8,12|hybrid": {
+  "mach": 10.0,
+  "sources": [
+   8.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 0.5547435917737802,
+  "q_L2": 0.18167556749646244,
+  "sigma_L2": 0.1265144838045958,
+  "T_max": 0.0965777021324264,
+  "monotone": true,
+  "width_ratio": 1.0017687335524892,
+  "flux_mass": 0.19197197529559062,
+  "flux_mom": 0.11185098170118923,
+  "flux_energy": 0.14571379177985566,
+  "positivity": {
+   "beam_fraction_range": [
+    0.02039330819252244,
+    0.8398495725983686
+   ],
+   "beam_Tpar_min": 0.034415741493780565,
+   "beam_Tperp_min": 0.03556328420160832,
+   "beam_clipped": false,
+   "remainder_g_negmass": 6.610042882202549e-15,
+   "remainder_g_min": -4.999662295442365e-13,
+   "remainder_h_negmass": 2.7730369793750198e-15,
+   "remainder_h_min": -2.0644303870829657e-13,
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 1.6359601272864937e-15,
+   "g_min": -1.4744016361377655e-13,
+   "h_negmass": 6.864375050792064e-16,
+   "h_min": -6.082626228048983e-14
+  },
+  "populations_min": {
+   "mass_fraction": 0.02039330819252244,
+   "Tpar": 0.034415741493780565,
+   "Tperp": 0.03556328420160832,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.1046331524477402,
+  "xspace_q_rms": 0.6209838582374978,
+  "xspace_sigma_rms": 0.521524047349428,
+  "xspace_T_rms": 0.40757926879064305
+ },
+ "DSMC, omega=1|M8 from 5,6": {
+  "mach": 8.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 11.006196708724316,
+  "q_L2": 0.24967640067008837,
+  "sigma_L2": 0.3705620227513862,
+  "T_max": 0.2690542058726343,
+  "monotone": true,
+  "width_ratio": 1.0090287232981332,
+  "flux_mass": 0.2166225571954561,
+  "flux_mom": 0.08938198801986541,
+  "flux_energy": 0.0846610643938206,
+  "positivity": {
+   "weight_low": -0.9943181818181814,
+   "weight_high": 1.9943181818181814,
+   "g_negmass": 0.40196069357617614,
+   "g_min": -0.9891912946377035,
+   "h_negmass": 0.018761723501499343,
+   "h_min": -0.2652250555098943
+  },
+  "xspace_nstar_rms": 0.1749700901020328,
+  "xspace_q_rms": 0.7889297837206295,
+  "xspace_sigma_rms": 0.47842900618373735,
+  "xspace_T_rms": 0.5130171980990719
+ },
+ "DSMC, omega=1|M8 from 5,6|hybrid": {
+  "mach": 8.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 2.113552418082269,
+  "q_L2": 0.8126914343233678,
+  "sigma_L2": 0.32260139661885523,
+  "T_max": 0.48142354291377043,
+  "monotone": true,
+  "width_ratio": 1.0127052581302245,
+  "flux_mass": 0.22722423687300264,
+  "flux_mom": 0.21767405096830839,
+  "flux_energy": 0.6075130152475738,
+  "positivity": {
+   "beam_fraction_range": [
+    0.018099464177843153,
+    0.856668106152806
+   ],
+   "beam_Tpar_min": 0.05523833468914911,
+   "beam_Tperp_min": 0.05608072487198068,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.541771335908437e-12,
+   "remainder_g_min": -4.809840852533305e-11,
+   "remainder_h_negmass": 7.991108686972533e-13,
+   "remainder_h_min": -2.452848968786221e-11,
+   "weight_low": -0.9943181818181814,
+   "weight_high": 1.9943181818181814,
+   "g_negmass": 5.742420469492365e-05,
+   "g_min": -0.0004538145943465393,
+   "h_negmass": 0.0002587285361867055,
+   "h_min": -0.002122819879672267
+  },
+  "populations_min": {
+   "mass_fraction": 0.011360421178887192,
+   "Tpar": 0.05523833468914911,
+   "Tperp": 0.05608072487198068,
+   "mass_fraction_sum_range": [
+    0.9999999999999996,
+    1.0000000000000004
+   ]
+  },
+  "xspace_nstar_rms": 0.25579231114505446,
+  "xspace_q_rms": 0.44352719334086527,
+  "xspace_sigma_rms": 0.44350305569672677,
+  "xspace_T_rms": 0.2384768255666281
+ },
+ "DSMC, omega=1|M12 from 6,8": {
+  "mach": 12.0,
+  "sources": [
+   6.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 18.73668106048428,
+  "q_L2": 0.13335495892267704,
+  "sigma_L2": 0.41209824573614556,
+  "T_max": 0.18578208906868285,
+  "monotone": true,
+  "width_ratio": 1.0091299785835348,
+  "flux_mass": 0.17553880591070214,
+  "flux_mom": 0.08416632265737523,
+  "flux_energy": 0.08485656248466977,
+  "positivity": {
+   "weight_low": -0.7142857142857144,
+   "weight_high": 1.7142857142857144,
+   "g_negmass": 0.5742158061744818,
+   "g_min": -1.4067692128645597,
+   "h_negmass": 0.0001217105455031181,
+   "h_min": -0.0013229984888280118
+  },
+  "xspace_nstar_rms": 0.17388752856679676,
+  "xspace_q_rms": 0.8032598131694433,
+  "xspace_sigma_rms": 0.5436800435193535,
+  "xspace_T_rms": 0.55282701390254
+ },
+ "DSMC, omega=1|M12 from 6,8|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   6.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 3.2793408751533857,
+  "q_L2": 0.8561367726988497,
+  "sigma_L2": 0.269580755461219,
+  "T_max": 0.7433475645965226,
+  "monotone": true,
+  "width_ratio": 1.0135148605533204,
+  "flux_mass": 0.18314360590874212,
+  "flux_mom": 0.15961299489346548,
+  "flux_energy": 0.5788877699215877,
+  "positivity": {
+   "beam_fraction_range": [
+    0.02156673635011099,
+    0.8428495932191852
+   ],
+   "beam_Tpar_min": 0.02689178834796313,
+   "beam_Tperp_min": 0.0278784631152795,
+   "beam_clipped": false,
+   "remainder_g_negmass": 4.1749655355202777e-14,
+   "remainder_g_min": -1.5563691142686653e-12,
+   "remainder_h_negmass": 1.8796559918209387e-14,
+   "remainder_h_min": -6.901672476188032e-13,
+   "weight_low": -0.7142857142857144,
+   "weight_high": 1.7142857142857144,
+   "g_negmass": 1.1091802631663277e-05,
+   "g_min": -0.00015802175082809208,
+   "h_negmass": 0.00012129476664770828,
+   "h_min": -0.0013117787943935796
+  },
+  "populations_min": {
+   "mass_fraction": 0.02156673635011099,
+   "Tpar": 0.02689178834796313,
+   "Tperp": 0.0278784631152795,
+   "mass_fraction_sum_range": [
+    0.9999999999999997,
+    1.0000000000000004
+   ]
+  },
+  "xspace_nstar_rms": 0.2912217586086005,
+  "xspace_q_rms": 0.4453088162675069,
+  "xspace_sigma_rms": 0.4586304001646711,
+  "xspace_T_rms": 0.24955526687881002
+ },
+ "DSMC, omega=1|M12 from 5,8": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 21.497704137318394,
+  "q_L2": 0.20862270620292983,
+  "sigma_L2": 0.5693098623242115,
+  "T_max": 0.18560041121383092,
+  "monotone": true,
+  "width_ratio": 1.0109442249987435,
+  "flux_mass": 0.18250148116711884,
+  "flux_mom": 0.07999328648167214,
+  "flux_energy": 0.06141303774833684,
+  "positivity": {
+   "weight_low": -0.35612535612535634,
+   "weight_high": 1.3561253561253563,
+   "g_negmass": 0.7430224691784642,
+   "g_min": -1.4689759302510161,
+   "h_negmass": 0.0043246909600790865,
+   "h_min": -0.11179860808001596
+  },
+  "xspace_nstar_rms": 0.2054667158061458,
+  "xspace_q_rms": 0.8862283296532039,
+  "xspace_sigma_rms": 0.5494480124782753,
+  "xspace_T_rms": 0.592773742708374
+ },
+ "DSMC, omega=1|M12 from 5,8|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 4.629876640439233,
+  "q_L2": 1.0426949427491918,
+  "sigma_L2": 0.33445998514712505,
+  "T_max": 0.8814406835779092,
+  "monotone": true,
+  "width_ratio": 1.015983612563102,
+  "flux_mass": 0.20252416882653446,
+  "flux_mom": 0.2042190722935766,
+  "flux_energy": 0.67330588494805,
+  "positivity": {
+   "beam_fraction_range": [
+    0.021251870068878347,
+    0.8446900852698878
+   ],
+   "beam_Tpar_min": 0.027894933572524566,
+   "beam_Tperp_min": 0.02881794238744094,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.541771335908437e-12,
+   "remainder_g_min": -4.809840852533305e-11,
+   "remainder_h_negmass": 7.991108686972533e-13,
+   "remainder_h_min": -2.452848968786221e-11,
+   "weight_low": -0.35612535612535634,
+   "weight_high": 1.3561253561253563,
+   "g_negmass": 3.378131536164167e-05,
+   "g_min": -0.00022865545964953298,
+   "h_negmass": 0.0001741809937341833,
+   "h_min": -0.0012260463443840555
+  },
+  "populations_min": {
+   "mass_fraction": 0.021251870068878347,
+   "Tpar": 0.027894933572524566,
+   "Tperp": 0.02881794238744094,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.3378074279937912,
+  "xspace_q_rms": 0.5243241550981633,
+  "xspace_sigma_rms": 0.4686540136842485,
+  "xspace_T_rms": 0.22613865615640505
+ },
+ "DSMC, omega=1|M12 from 8,10": {
+  "mach": 12.0,
+  "sources": [
+   8.0,
+   10.0
+  ],
+  "kind": "extrap",
+  "g_max": 6.451803332794263,
+  "q_L2": 0.053489142947755135,
+  "sigma_L2": 0.09513988888508379,
+  "T_max": 0.08941401918003303,
+  "monotone": true,
+  "width_ratio": 1.0039736127734435,
+  "flux_mass": 0.19681821592758553,
+  "flux_mom": 0.08479608070897093,
+  "flux_energy": 0.14192712400362684,
+  "positivity": {
+   "weight_low": -0.5432098765432101,
+   "weight_high": 1.54320987654321,
+   "g_negmass": 5.764679909750663e-06,
+   "g_min": -8.635149863452625e-05,
+   "h_negmass": 3.5002325076959744e-05,
+   "h_min": -0.0008370830515144308
+  },
+  "xspace_nstar_rms": 0.09309771204217474,
+  "xspace_q_rms": 0.547388949917216,
+  "xspace_sigma_rms": 0.40704964313875386,
+  "xspace_T_rms": 0.3793688689266667
+ },
+ "DSMC, omega=1|M12 from 8,10|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   8.0,
+   10.0
+  ],
+  "kind": "extrap",
+  "g_max": 0.9183028266434013,
+  "q_L2": 0.2288675119707133,
+  "sigma_L2": 0.10160127301513619,
+  "T_max": 0.18455248990881093,
+  "monotone": true,
+  "width_ratio": 1.005001895810655,
+  "flux_mass": 0.19688351902262813,
+  "flux_mom": 0.0956319173116782,
+  "flux_energy": 0.2450829794183651,
+  "positivity": {
+   "beam_fraction_range": [
+    0.023744847481557155,
+    0.8361732484063962
+   ],
+   "beam_Tpar_min": 0.025070439293537264,
+   "beam_Tperp_min": 0.026288927815269328,
+   "beam_clipped": false,
+   "remainder_g_negmass": 6.610042882202549e-15,
+   "remainder_g_min": -4.999662295442365e-13,
+   "remainder_h_negmass": 2.7730369793750198e-15,
+   "remainder_h_min": -2.0644303870829657e-13,
+   "weight_low": -0.5432098765432101,
+   "weight_high": 1.54320987654321,
+   "g_negmass": 5.764679909750663e-06,
+   "g_min": -8.63514284750951e-05,
+   "h_negmass": 3.4969144557354e-05,
+   "h_min": -0.0008518782280760959
+  },
+  "populations_min": {
+   "mass_fraction": 0.023744847481557155,
+   "Tpar": 0.025070439293537264,
+   "Tperp": 0.026288927815269328,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.10418681805676663,
+  "xspace_q_rms": 0.43369916182638485,
+  "xspace_sigma_rms": 0.3540131812959927,
+  "xspace_T_rms": 0.3158580746149849
+ },
+ "DSMC, omega=1|M12 from 5,6": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 32.75487013835527,
+  "q_L2": 0.5364647413362484,
+  "sigma_L2": 1.1959523495317739,
+  "T_max": 0.5570074603577683,
+  "monotone": true,
+  "width_ratio": 1.0178667064814613,
+  "flux_mass": 0.2334333473458461,
+  "flux_mom": 0.2994168402500774,
+  "flux_energy": 0.28760957804502274,
+  "positivity": {
+   "weight_low": -1.7045454545454546,
+   "weight_high": 2.7045454545454546,
+   "g_negmass": 1.6318829447738068,
+   "g_min": -3.3244456334760217,
+   "h_negmass": 1.5351475433330963,
+   "h_min": -6.961574764940294
+  },
+  "xspace_nstar_rms": 0.3321009505966161,
+  "xspace_q_rms": 1.2158303875690828,
+  "xspace_sigma_rms": 0.6230391330714566,
+  "xspace_T_rms": 0.7566673550205801
+ },
+ "DSMC, omega=1|M12 from 5,6|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 9.377484660511731,
+  "q_L2": 1.9141521796787881,
+  "sigma_L2": 0.7955834653318918,
+  "T_max": 1.4173208199451457,
+  "monotone": true,
+  "width_ratio": 1.0261279614081205,
+  "flux_mass": 0.3127072320302293,
+  "flux_mom": 0.39509903465144713,
+  "flux_energy": 1.211856398727651,
+  "positivity": {
+   "beam_fraction_range": [
+    0.013251009816732072,
+    0.8516588574436845
+   ],
+   "beam_Tpar_min": 0.03169320617279586,
+   "beam_Tperp_min": 0.0323751525406705,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.541771335908437e-12,
+   "remainder_g_min": -4.809840852533305e-11,
+   "remainder_h_negmass": 7.991108686972533e-13,
+   "remainder_h_min": -2.452848968786221e-11,
+   "weight_low": -1.7045454545454546,
+   "weight_high": 2.7045454545454546,
+   "g_negmass": 0.0018435408688301004,
+   "g_min": -0.006737330890529348,
+   "h_negmass": 0.002526253819869261,
+   "h_min": -0.01819439504108495
+  },
+  "populations_min": {
+   "mass_fraction": -0.019588108073208654,
+   "Tpar": 0.03169320617279586,
+   "Tperp": 0.0323751525406705,
+   "mass_fraction_sum_range": [
+    0.9999999999999994,
+    1.0000000000000004
+   ]
+  },
+  "xspace_nstar_rms": 0.5943684807851932,
+  "xspace_q_rms": 1.1456196513215213,
+  "xspace_sigma_rms": 0.7781156825210722,
+  "xspace_T_rms": 0.2730547762657035
+ },
+ "DSMC, omega=0.81|M3 from 2,4": {
+  "mach": 3.0,
+  "sources": [
+   2.0,
+   4.0
+  ],
+  "kind": "interp",
+  "g_max": 14.288064701998515,
+  "q_L2": 5.243421504347618,
+  "sigma_L2": 21.756395265958226,
+  "T_max": 3.239171110178265,
+  "monotone": true,
+  "width_ratio": 0.7949650416704425,
+  "flux_mass": 0.274096199591467,
+  "flux_mom": 4.445120963911031,
+  "flux_energy": 4.357024794464115,
+  "positivity": {
+   "weight_low": 0.2592592592592592,
+   "weight_high": 0.7407407407407408,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 3.882243725548884,
+  "xspace_q_rms": 10.461886326263757,
+  "xspace_sigma_rms": 8.50255940606346,
+  "xspace_T_rms": 4.704361537571505
+ },
+ "DSMC, omega=0.81|M3 from 2,4|hybrid": {
+  "mach": 3.0,
+  "sources": [
+   2.0,
+   4.0
+  ],
+  "kind": "interp",
+  "g_max": 3.0892369202081262,
+  "q_L2": 5.818215158792821,
+  "sigma_L2": 15.80039263979284,
+  "T_max": 3.9543119569704457,
+  "monotone": true,
+  "width_ratio": 0.7322552437456263,
+  "flux_mass": 0.27604985273435023,
+  "flux_mom": 4.190971852955094,
+  "flux_energy": 3.515825993784061,
+  "positivity": {
+   "beam_fraction_range": [
+    0.03343872583368245,
+    0.8943234630940773
+   ],
+   "beam_Tpar_min": 0.253959390020875,
+   "beam_Tperp_min": 0.254950950047624,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.924686967942993e-08,
+   "remainder_g_min": -5.131284400787489e-06,
+   "remainder_h_negmass": 3.398959907528871e-07,
+   "remainder_h_min": -2.720772621578814e-05,
+   "weight_low": 0.2592592592592592,
+   "weight_high": 0.7407407407407408,
+   "g_negmass": 7.582521094309709e-09,
+   "g_min": -7.466284290023222e-07,
+   "h_negmass": 1.39717390144365e-07,
+   "h_min": -7.1631431966799765e-06
+  },
+  "populations_min": {
+   "mass_fraction": 0.03343872583368245,
+   "Tpar": 0.253959390020875,
+   "Tperp": 0.254950950047624,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 4.852442648550066,
+  "xspace_q_rms": 8.1964621043042,
+  "xspace_sigma_rms": 8.695215289225088,
+  "xspace_T_rms": 7.346108942255233
+ },
+ "DSMC, omega=0.81|M4 from 3,5": {
+  "mach": 4.0,
+  "sources": [
+   3.0,
+   5.0
+  ],
+  "kind": "interp",
+  "g_max": 7.442813974328676,
+  "q_L2": 0.7752398743230334,
+  "sigma_L2": 2.7776094694651925,
+  "T_max": 0.5864380667130864,
+  "monotone": true,
+  "width_ratio": 0.9556169232395688,
+  "flux_mass": 0.20584031349559773,
+  "flux_mom": 0.8009924278199465,
+  "flux_energy": 0.8544855828498177,
+  "positivity": {
+   "weight_low": 0.31640625,
+   "weight_high": 0.68359375,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.8804356570890329,
+  "xspace_q_rms": 1.9285479480420478,
+  "xspace_sigma_rms": 1.9785847864160624,
+  "xspace_T_rms": 0.997215179986643
+ },
+ "DSMC, omega=0.81|M4 from 3,5|hybrid": {
+  "mach": 4.0,
+  "sources": [
+   3.0,
+   5.0
+  ],
+  "kind": "interp",
+  "g_max": 1.1444534716774055,
+  "q_L2": 1.5472007409285622,
+  "sigma_L2": 1.7728739982377633,
+  "T_max": 1.1815760976074805,
+  "monotone": true,
+  "width_ratio": 0.9455438287501329,
+  "flux_mass": 0.17914992618690562,
+  "flux_mom": 0.6946080584340875,
+  "flux_energy": 0.5345087018213457,
+  "positivity": {
+   "beam_fraction_range": [
+    0.030615122158904585,
+    0.8860443645419891
+   ],
+   "beam_Tpar_min": 0.1684926442580495,
+   "beam_Tperp_min": 0.17046953937656162,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.4452509519083619e-08,
+   "remainder_g_min": -5.307633500612629e-07,
+   "remainder_h_negmass": 2.12576732301636e-08,
+   "remainder_h_min": -5.138794985937445e-07,
+   "weight_low": 0.31640625,
+   "weight_high": 0.68359375,
+   "g_negmass": 4.572864162366502e-09,
+   "g_min": -1.2078458777836776e-07,
+   "h_negmass": 8.922260183262813e-09,
+   "h_min": -1.8229070170015296e-07
+  },
+  "populations_min": {
+   "mass_fraction": 0.030615122158904585,
+   "Tpar": 0.1684926442580495,
+   "Tperp": 0.17046953937656162,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0
+   ]
+  },
+  "xspace_nstar_rms": 1.1461178914006573,
+  "xspace_q_rms": 2.9394164036229005,
+  "xspace_sigma_rms": 2.1906807551228407,
+  "xspace_T_rms": 1.361406132331373
+ },
+ "DSMC, omega=0.81|M5 from 4,6": {
+  "mach": 5.0,
+  "sources": [
+   4.0,
+   6.0
+  ],
+  "kind": "interp",
+  "g_max": 4.6246322288749395,
+  "q_L2": 0.17851753999064557,
+  "sigma_L2": 0.8393453325556056,
+  "T_max": 0.17044793865388583,
+  "monotone": true,
+  "width_ratio": 0.9743119512094417,
+  "flux_mass": 0.2138733430461226,
+  "flux_mom": 0.30607403201876604,
+  "flux_energy": 0.3747401127849326,
+  "positivity": {
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.6278598203582038,
+  "xspace_q_rms": 2.4584849650913942,
+  "xspace_sigma_rms": 2.1126530600590865,
+  "xspace_T_rms": 1.5060456376917648
+ },
+ "DSMC, omega=0.81|M5 from 4,6|hybrid": {
+  "mach": 5.0,
+  "sources": [
+   4.0,
+   6.0
+  ],
+  "kind": "interp",
+  "g_max": 0.5198102625167851,
+  "q_L2": 0.6778480386235463,
+  "sigma_L2": 0.5876464362228991,
+  "T_max": 0.40680851358914966,
+  "monotone": true,
+  "width_ratio": 0.9712417574026965,
+  "flux_mass": 0.20499639360991306,
+  "flux_mom": 0.2650405971394987,
+  "flux_energy": 0.24960313777386833,
+  "positivity": {
+   "beam_fraction_range": [
+    0.028029426945377904,
+    0.8755716848883129
+   ],
+   "beam_Tpar_min": 0.11667475883416284,
+   "beam_Tperp_min": 0.11775153306300268,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.577796224306097e-12,
+   "remainder_g_min": -3.5734786392720274e-11,
+   "remainder_h_negmass": 7.990132541720985e-13,
+   "remainder_h_min": -2.8616693519964296e-11,
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 5.097814908162655e-13,
+   "g_min": -9.299259003374548e-12,
+   "h_negmass": 2.8148725783954137e-13,
+   "h_min": -1.0163112509843217e-11
+  },
+  "populations_min": {
+   "mass_fraction": 0.028029426945377904,
+   "Tpar": 0.11667475883416284,
+   "Tperp": 0.11775153306300268,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.7561205868661698,
+  "xspace_q_rms": 2.9429480192621047,
+  "xspace_sigma_rms": 2.3757732417884463,
+  "xspace_T_rms": 1.7111551172158215
+ },
+ "DSMC, omega=0.81|M6 from 5,8": {
+  "mach": 6.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "interp",
+  "g_max": 6.301940041764821,
+  "q_L2": 0.08182197395574715,
+  "sigma_L2": 0.4315543175939118,
+  "T_max": 0.12485869173665001,
+  "monotone": true,
+  "width_ratio": 0.9768436672456102,
+  "flux_mass": 0.19343676026131185,
+  "flux_mom": 0.20967238594902238,
+  "flux_energy": 0.27623125120948,
+  "positivity": {
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.5993371054513941,
+  "xspace_q_rms": 2.602886594924983,
+  "xspace_sigma_rms": 2.2079953416446094,
+  "xspace_T_rms": 1.6465069253487195
+ },
+ "DSMC, omega=0.81|M6 from 5,8|hybrid": {
+  "mach": 6.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "interp",
+  "g_max": 0.49165034431570465,
+  "q_L2": 0.6580514238308763,
+  "sigma_L2": 0.3528349018905392,
+  "T_max": 0.29679767334857415,
+  "monotone": true,
+  "width_ratio": 0.9749673311476349,
+  "flux_mass": 0.19691258061340644,
+  "flux_mom": 0.1900235372223058,
+  "flux_energy": 0.17993037531824907,
+  "positivity": {
+   "beam_fraction_range": [
+    0.02421861312298309,
+    0.8700176588636388
+   ],
+   "beam_Tpar_min": 0.08440074571744646,
+   "beam_Tperp_min": 0.08532069368911256,
+   "beam_clipped": false,
+   "remainder_g_negmass": 9.60875369409594e-14,
+   "remainder_g_min": -3.4070839624682516e-12,
+   "remainder_h_negmass": 4.297365663140379e-14,
+   "remainder_h_min": -1.499021974057518e-12,
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 2.7972532963670022e-14,
+   "g_min": -1.6523816276400794e-12,
+   "h_negmass": 1.2501486456383594e-14,
+   "h_min": -7.254500704902936e-13
+  },
+  "populations_min": {
+   "mass_fraction": 0.02421861312298309,
+   "Tpar": 0.08440074571744646,
+   "Tperp": 0.08532069368911256,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.726117200312738,
+  "xspace_q_rms": 2.9674900567425846,
+  "xspace_sigma_rms": 2.4764947216032045,
+  "xspace_T_rms": 1.817903307930847
+ },
+ "DSMC, omega=0.81|M8 from 6,12": {
+  "mach": 8.0,
+  "sources": [
+   6.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 13.61983379993949,
+  "q_L2": 0.061669191569452074,
+  "sigma_L2": 0.37631214432473403,
+  "T_max": 0.23255207911751208,
+  "monotone": true,
+  "width_ratio": 0.9759459077793445,
+  "flux_mass": 0.18205482061006695,
+  "flux_mom": 0.15376823253505645,
+  "flux_energy": 0.22245073427749062,
+  "positivity": {
+   "weight_low": 0.41666666666666674,
+   "weight_high": 0.5833333333333333,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.5851783280164262,
+  "xspace_q_rms": 2.6593477319936523,
+  "xspace_sigma_rms": 2.2182265133673993,
+  "xspace_T_rms": 1.7014111148932825
+ },
+ "DSMC, omega=0.81|M8 from 6,12|hybrid": {
+  "mach": 8.0,
+  "sources": [
+   6.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 0.9908036747456707,
+  "q_L2": 0.7587964653757527,
+  "sigma_L2": 0.3746365709705558,
+  "T_max": 0.10224504858371872,
+  "monotone": true,
+  "width_ratio": 0.9757407970221541,
+  "flux_mass": 0.19405988571319366,
+  "flux_mom": 0.1469087703293015,
+  "flux_energy": 0.13606518262125888,
+  "positivity": {
+   "beam_fraction_range": [
+    0.019481233910112458,
+    0.859397761710694
+   ],
+   "beam_Tpar_min": 0.049115654627070376,
+   "beam_Tperp_min": 0.050020070348361534,
+   "beam_clipped": false,
+   "remainder_g_negmass": 4.381178914488605e-17,
+   "remainder_g_min": -1.862207899005727e-15,
+   "remainder_h_negmass": 1.7926521149207313e-17,
+   "remainder_h_min": -7.485112373766155e-16,
+   "weight_low": 0.41666666666666674,
+   "weight_high": 0.5833333333333333,
+   "g_negmass": 1.8254915704016915e-17,
+   "g_min": -7.555594411288514e-16,
+   "h_negmass": 7.464672224719258e-18,
+   "h_min": -3.031505249599914e-16
+  },
+  "populations_min": {
+   "mass_fraction": 0.019481233910112458,
+   "Tpar": 0.049115654627070376,
+   "Tperp": 0.050020070348361534,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.691678711036485,
+  "xspace_q_rms": 2.9737855639855524,
+  "xspace_sigma_rms": 2.4586687876775977,
+  "xspace_T_rms": 1.8636772083908262
+ },
+ "DSMC, omega=0.81|M10 from 8,12": {
+  "mach": 10.0,
+  "sources": [
+   8.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 4.424817552957918,
+  "q_L2": 0.04664747556541751,
+  "sigma_L2": 0.11272208490517048,
+  "T_max": 0.12816019953159916,
+  "monotone": true,
+  "width_ratio": 0.9769569518109692,
+  "flux_mass": 0.18250644074710998,
+  "flux_mom": 0.09794903168218738,
+  "flux_energy": 0.16732913384029935,
+  "positivity": {
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 0.5780375001665992,
+  "xspace_q_rms": 2.7425132362378357,
+  "xspace_sigma_rms": 2.267741970776793,
+  "xspace_T_rms": 1.7821577696881432
+ },
+ "DSMC, omega=0.81|M10 from 8,12|hybrid": {
+  "mach": 10.0,
+  "sources": [
+   8.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 0.49234074653216675,
+  "q_L2": 0.15198933872925502,
+  "sigma_L2": 0.1283377639417774,
+  "T_max": 0.0661531809156347,
+  "monotone": true,
+  "width_ratio": 0.977521681097738,
+  "flux_mass": 0.1852839273652096,
+  "flux_mom": 0.09686949828544567,
+  "flux_energy": 0.14124662458780968,
+  "positivity": {
+   "beam_fraction_range": [
+    0.016840659426486555,
+    0.8553373518477738
+   ],
+   "beam_Tpar_min": 0.03261794833506135,
+   "beam_Tperp_min": 0.03351514631204848,
+   "beam_clipped": false,
+   "remainder_g_negmass": 5.3875600425130014e-21,
+   "remainder_g_min": -3.0750169814348293e-19,
+   "remainder_h_negmass": 1.7908959715471546e-21,
+   "remainder_h_min": -1.0040710689953282e-19,
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 5.242626820276731e-22,
+   "g_min": -3.3643374957634813e-20,
+   "h_negmass": 1.7420727477615064e-22,
+   "h_min": -1.0966983579109753e-20
+  },
+  "populations_min": {
+   "mass_fraction": 0.016840659426486555,
+   "Tpar": 0.03261794833506135,
+   "Tperp": 0.03351514631204848,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.5949712611098987,
+  "xspace_q_rms": 2.7926186635543977,
+  "xspace_sigma_rms": 2.308101164966297,
+  "xspace_T_rms": 1.8130830700769751
+ },
+ "DSMC, omega=0.81|M8 from 5,6": {
+  "mach": 8.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 11.646203275282693,
+  "q_L2": 0.218040486924747,
+  "sigma_L2": 0.4314844517754915,
+  "T_max": 0.18886350142612407,
+  "monotone": true,
+  "width_ratio": 0.9846583786851876,
+  "flux_mass": 0.2327072229242555,
+  "flux_mom": 0.09884597479294932,
+  "flux_energy": 0.06934056765242058,
+  "positivity": {
+   "weight_low": -0.9943181818181814,
+   "weight_high": 1.9943181818181814,
+   "g_negmass": 0.4767816403727496,
+   "g_min": -1.14845479300365,
+   "h_negmass": 0.12752253755267415,
+   "h_min": -0.9185946393646364
+  },
+  "xspace_nstar_rms": 0.5201979415020499,
+  "xspace_q_rms": 2.9605290184468798,
+  "xspace_sigma_rms": 2.3099904556910476,
+  "xspace_T_rms": 1.918089787527994
+ },
+ "DSMC, omega=0.81|M8 from 5,6|hybrid": {
+  "mach": 8.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 2.1462578518964257,
+  "q_L2": 1.0057130932837444,
+  "sigma_L2": 0.31582862627910263,
+  "T_max": 0.8001543205838806,
+  "monotone": true,
+  "width_ratio": 0.98684660470997,
+  "flux_mass": 0.24206879806145665,
+  "flux_mom": 0.1656320260462918,
+  "flux_energy": 0.676483548677087,
+  "positivity": {
+   "beam_fraction_range": [
+    0.022882813439670087,
+    0.8646292489763547
+   ],
+   "beam_Tpar_min": 0.052697209663047695,
+   "beam_Tperp_min": 0.05350523809916567,
+   "beam_clipped": false,
+   "remainder_g_negmass": 9.60875369409594e-14,
+   "remainder_g_min": -3.4070839624682516e-12,
+   "remainder_h_negmass": 4.297365663140379e-14,
+   "remainder_h_min": -1.499021974057518e-12,
+   "weight_low": -0.9943181818181814,
+   "weight_high": 1.9943181818181814,
+   "g_negmass": 7.829300903926579e-05,
+   "g_min": -0.0003950553423736412,
+   "h_negmass": 0.00013807998125077876,
+   "h_min": -0.0023656145421144087
+  },
+  "populations_min": {
+   "mass_fraction": 0.01836036665974114,
+   "Tpar": 0.052697209663047695,
+   "Tperp": 0.05350523809916567,
+   "mass_fraction_sum_range": [
+    0.9999999999999997,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.35324384601299885,
+  "xspace_q_rms": 2.383818232536656,
+  "xspace_sigma_rms": 1.8855307947048179,
+  "xspace_T_rms": 1.6252250281504341
+ },
+ "DSMC, omega=0.81|M12 from 6,8": {
+  "mach": 12.0,
+  "sources": [
+   6.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 19.970737440701495,
+  "q_L2": 0.11577099874277706,
+  "sigma_L2": 0.42221394916427335,
+  "T_max": 0.33871089829443773,
+  "monotone": true,
+  "width_ratio": 0.9823014539515558,
+  "flux_mass": 0.21756131010743918,
+  "flux_mom": 0.09222051041746226,
+  "flux_energy": 0.11100690929908286,
+  "positivity": {
+   "weight_low": -0.7142857142857144,
+   "weight_high": 1.7142857142857144,
+   "g_negmass": 0.7484651920001275,
+   "g_min": -1.6998757672106921,
+   "h_negmass": 0.00013328823744738496,
+   "h_min": -0.001692885708922467
+  },
+  "xspace_nstar_rms": 0.5645530510798598,
+  "xspace_q_rms": 2.931396864189996,
+  "xspace_sigma_rms": 2.379034137255145,
+  "xspace_T_rms": 1.943203799579486
+ },
+ "DSMC, omega=0.81|M12 from 6,8|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   6.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 3.1204971749010593,
+  "q_L2": 1.0007798505011312,
+  "sigma_L2": 0.3437598634923784,
+  "T_max": 0.1586457512630662,
+  "monotone": true,
+  "width_ratio": 0.9856714306356444,
+  "flux_mass": 0.22364225643218827,
+  "flux_mom": 0.15123947664112958,
+  "flux_energy": 0.6209171483541054,
+  "positivity": {
+   "beam_fraction_range": [
+    0.016091211073147975,
+    0.8572804716905779
+   ],
+   "beam_Tpar_min": 0.02499050706505246,
+   "beam_Tperp_min": 0.025838875370994857,
+   "beam_clipped": false,
+   "remainder_g_negmass": 4.381178914488605e-17,
+   "remainder_g_min": -1.862207899005727e-15,
+   "remainder_h_negmass": 1.7926521149207313e-17,
+   "remainder_h_min": -7.485112373766155e-16,
+   "weight_low": -0.7142857142857144,
+   "weight_high": 1.7142857142857144,
+   "g_negmass": 1.3789322997640684e-05,
+   "g_min": -0.0001719581404267569,
+   "h_negmass": 0.00013298482279789652,
+   "h_min": -0.0018208748008096472
+  },
+  "populations_min": {
+   "mass_fraction": 0.016091211073147975,
+   "Tpar": 0.02499050706505246,
+   "Tperp": 0.025838875370994857,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.4164925776103377,
+  "xspace_q_rms": 2.50963815774311,
+  "xspace_sigma_rms": 2.008505494731486,
+  "xspace_T_rms": 1.69565885287018
+ },
+ "DSMC, omega=0.81|M12 from 5,8": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 22.848253541364812,
+  "q_L2": 0.1701822405980909,
+  "sigma_L2": 0.6063614556012331,
+  "T_max": 0.307186945113089,
+  "monotone": true,
+  "width_ratio": 0.9843771228569862,
+  "flux_mass": 0.2242143446624434,
+  "flux_mom": 0.09303017373379907,
+  "flux_energy": 0.08516586238682677,
+  "positivity": {
+   "weight_low": -0.35612535612535634,
+   "weight_high": 1.3561253561253563,
+   "g_negmass": 0.9043812037811589,
+   "g_min": -1.716811866062426,
+   "h_negmass": 0.16166957171187032,
+   "h_min": -1.4998075979096084
+  },
+  "xspace_nstar_rms": 0.5467844447921572,
+  "xspace_q_rms": 2.997581732718856,
+  "xspace_sigma_rms": 2.3932450180482214,
+  "xspace_T_rms": 1.9874723065852693
+ },
+ "DSMC, omega=0.81|M12 from 5,8|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 4.50088908637476,
+  "q_L2": 1.2609154143666956,
+  "sigma_L2": 0.4222139537678499,
+  "T_max": 0.41917550711449053,
+  "monotone": true,
+  "width_ratio": 0.9878506347919017,
+  "flux_mass": 0.23227907902099165,
+  "flux_mom": 0.17041724292568006,
+  "flux_energy": 0.7359794616663473,
+  "positivity": {
+   "beam_fraction_range": [
+    0.017100041506634647,
+    0.8578853270540706
+   ],
+   "beam_Tpar_min": 0.025865204892577313,
+   "beam_Tperp_min": 0.026692785981750254,
+   "beam_clipped": false,
+   "remainder_g_negmass": 9.60875369409594e-14,
+   "remainder_g_min": -3.4070839624682516e-12,
+   "remainder_h_negmass": 4.297365663140379e-14,
+   "remainder_h_min": -1.499021974057518e-12,
+   "weight_low": -0.35612535612535634,
+   "weight_high": 1.3561253561253563,
+   "g_negmass": 2.400834216592352e-05,
+   "g_min": -0.00020407644668407124,
+   "h_negmass": 0.00010180947014177352,
+   "h_min": -0.001221485381757382
+  },
+  "populations_min": {
+   "mass_fraction": 0.017100041506634647,
+   "Tpar": 0.025865204892577313,
+   "Tperp": 0.026692785981750254,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.36425544829479384,
+  "xspace_q_rms": 2.405136620628915,
+  "xspace_sigma_rms": 1.8955791529173662,
+  "xspace_T_rms": 1.6500813641181429
+ },
+ "DSMC, omega=0.81|M12 from 8,10": {
+  "mach": 12.0,
+  "sources": [
+   8.0,
+   10.0
+  ],
+  "kind": "extrap",
+  "g_max": 6.867989138346768,
+  "q_L2": 0.08309602296980022,
+  "sigma_L2": 0.07801627189481232,
+  "T_max": 0.13577430884874722,
+  "monotone": true,
+  "width_ratio": 0.9779161279944534,
+  "flux_mass": 0.20378121351138923,
+  "flux_mom": 0.08511139432532122,
+  "flux_energy": 0.15138977214883553,
+  "positivity": {
+   "weight_low": -0.5432098765432101,
+   "weight_high": 1.54320987654321,
+   "g_negmass": 0.0004394304778776392,
+   "g_min": -0.01568175291426676,
+   "h_negmass": 9.874033663873689e-05,
+   "h_min": -0.0011353777001512195
+  },
+  "xspace_nstar_rms": 0.5706239915571295,
+  "xspace_q_rms": 2.7342702275141413,
+  "xspace_sigma_rms": 2.2397003537525024,
+  "xspace_T_rms": 1.7841075552429502
+ },
+ "DSMC, omega=0.81|M12 from 8,10|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   8.0,
+   10.0
+  ],
+  "kind": "extrap",
+  "g_max": 0.6357696377908686,
+  "q_L2": 0.18024567930900226,
+  "sigma_L2": 0.09155618694184746,
+  "T_max": 0.06744030298702916,
+  "monotone": true,
+  "width_ratio": 0.9772703644842559,
+  "flux_mass": 0.19856189527533985,
+  "flux_mom": 0.09420920417897438,
+  "flux_energy": 0.2711396027514468,
+  "positivity": {
+   "beam_fraction_range": [
+    0.014470096856655408,
+    0.8528981748691868
+   ],
+   "beam_Tpar_min": 0.023322722292041017,
+   "beam_Tperp_min": 0.024256009241127904,
+   "beam_clipped": false,
+   "remainder_g_negmass": 5.3875600425130014e-21,
+   "remainder_g_min": -3.0750169814348293e-19,
+   "remainder_h_negmass": 1.7908959715471546e-21,
+   "remainder_h_min": -1.0040710689953282e-19,
+   "weight_low": -0.5432098765432101,
+   "weight_high": 1.54320987654321,
+   "g_negmass": 8.995406111709768e-06,
+   "g_min": -0.0001425681840539081,
+   "h_negmass": 9.867791013140342e-05,
+   "h_min": -0.0011586078570608325
+  },
+  "populations_min": {
+   "mass_fraction": 0.014470096856655408,
+   "Tpar": 0.023322722292041017,
+   "Tperp": 0.024256009241127904,
+   "mass_fraction_sum_range": [
+    0.9999999999999996,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 0.5469387517264718,
+  "xspace_q_rms": 2.6623737356932935,
+  "xspace_sigma_rms": 2.1781488627729573,
+  "xspace_T_rms": 1.7396700242180276
+ },
+ "DSMC, omega=0.81|M12 from 5,6": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 34.58890466233054,
+  "q_L2": 0.44135314323546876,
+  "sigma_L2": 1.3354047739876664,
+  "T_max": 0.48720293689724925,
+  "monotone": true,
+  "width_ratio": 0.9923278326237722,
+  "flux_mass": 0.2559242472015555,
+  "flux_mom": 0.3405867877124269,
+  "flux_energy": 0.2974124324792382,
+  "positivity": {
+   "weight_low": -1.7045454545454546,
+   "weight_high": 2.7045454545454546,
+   "g_negmass": 1.7854470727917502,
+   "g_min": -3.5074344925752525,
+   "h_negmass": 1.9789249265918303,
+   "h_min": -8.714556639691784
+  },
+  "xspace_nstar_rms": 0.5081069749613447,
+  "xspace_q_rms": 3.267686889879745,
+  "xspace_sigma_rms": 2.457943955979659,
+  "xspace_T_rms": 2.158771340590613
+ },
+ "DSMC, omega=0.81|M12 from 5,6|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 9.297358526981515,
+  "q_L2": 2.3844220975760724,
+  "sigma_L2": 0.8608192308578712,
+  "T_max": 1.474573779166107,
+  "monotone": true,
+  "width_ratio": 0.9972415550744519,
+  "flux_mass": 0.30078999810936313,
+  "flux_mom": 0.31470715921277925,
+  "flux_energy": 1.3717010432616306,
+  "positivity": {
+   "beam_fraction_range": [
+    0.020248046718658826,
+    0.860175529407659
+   ],
+   "beam_Tpar_min": 0.029177128939523678,
+   "beam_Tperp_min": 0.02992600206701962,
+   "beam_clipped": false,
+   "remainder_g_negmass": 9.60875369409594e-14,
+   "remainder_g_min": -3.4070839624682516e-12,
+   "remainder_h_negmass": 4.297365663140379e-14,
+   "remainder_h_min": -1.499021974057518e-12,
+   "weight_low": -1.7045454545454546,
+   "weight_high": 2.7045454545454546,
+   "g_negmass": 0.002190380231139681,
+   "g_min": -0.00755610661059991,
+   "h_negmass": 0.0025531513807747178,
+   "h_min": -0.02763129634888063
+  },
+  "populations_min": {
+   "mass_fraction": 0.004248146797839178,
+   "Tpar": 0.029177128939523678,
+   "Tperp": 0.02992600206701962,
+   "mass_fraction_sum_range": [
+    0.9999999999999994,
+    1.0000000000000004
+   ]
+  },
+  "xspace_nstar_rms": 0.42218480802071495,
+  "xspace_q_rms": 2.1589470154979997,
+  "xspace_sigma_rms": 1.5337288761483834,
+  "xspace_T_rms": 1.4894497098692085
+ },
+ "DSMC, hard sphere|M3 from 2,4": {
+  "mach": 3.0,
+  "sources": [
+   2.0,
+   4.0
+  ],
+  "kind": "interp",
+  "g_max": 14.605657058120444,
+  "q_L2": 5.26130717328999,
+  "sigma_L2": 21.75502022970116,
+  "T_max": 3.1188777461208654,
+  "monotone": true,
+  "width_ratio": 0.7583369034109655,
+  "flux_mass": 0.2766474248253381,
+  "flux_mom": 4.424650328846758,
+  "flux_energy": 4.342641905111266,
+  "positivity": {
+   "weight_low": 0.2592592592592592,
+   "weight_high": 0.7407407407407408,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 4.440521260130546,
+  "xspace_q_rms": 10.281054349899321,
+  "xspace_sigma_rms": 7.7931129784190505,
+  "xspace_T_rms": 4.392016359833396
+ },
+ "DSMC, hard sphere|M3 from 2,4|hybrid": {
+  "mach": 3.0,
+  "sources": [
+   2.0,
+   4.0
+  ],
+  "kind": "interp",
+  "g_max": 3.0825857168529107,
+  "q_L2": 5.869005081026315,
+  "sigma_L2": 15.791424065906927,
+  "T_max": 4.109315329799811,
+  "monotone": true,
+  "width_ratio": 0.6791437189933006,
+  "flux_mass": 0.2555420636246253,
+  "flux_mom": 4.159047791022652,
+  "flux_energy": 3.370890654762304,
+  "positivity": {
+   "beam_fraction_range": [
+    0.031001248325847698,
+    0.9054288142569744
+   ],
+   "beam_Tpar_min": 0.2523096817558782,
+   "beam_Tperp_min": 0.253259495305581,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.1730436163271483e-06,
+   "remainder_g_min": -6.559503633456722e-05,
+   "remainder_h_negmass": 2.096596640305218e-06,
+   "remainder_h_min": -0.00013350507348882678,
+   "weight_low": 0.2592592592592592,
+   "weight_high": 0.7407407407407408,
+   "g_negmass": 5.633815926500533e-07,
+   "g_min": -9.50904799568151e-06,
+   "h_negmass": 8.715373930343743e-07,
+   "h_min": -3.541750136607303e-05
+  },
+  "populations_min": {
+   "mass_fraction": 0.031001248325847698,
+   "Tpar": 0.2523096817558782,
+   "Tperp": 0.253259495305581,
+   "mass_fraction_sum_range": [
+    0.9999999999999999,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 5.5525430486247185,
+  "xspace_q_rms": 7.770651452106362,
+  "xspace_sigma_rms": 7.011176415702284,
+  "xspace_T_rms": 6.267314774528862
+ },
+ "DSMC, hard sphere|M4 from 3,5": {
+  "mach": 4.0,
+  "sources": [
+   3.0,
+   5.0
+  ],
+  "kind": "interp",
+  "g_max": 7.722120837464362,
+  "q_L2": 0.7760890879047503,
+  "sigma_L2": 2.8576300778603305,
+  "T_max": 0.5688530624965222,
+  "monotone": true,
+  "width_ratio": 0.9076282832245121,
+  "flux_mass": 0.20217485291236237,
+  "flux_mom": 0.7754251156247172,
+  "flux_energy": 0.8631460263550883,
+  "positivity": {
+   "weight_low": 0.31640625,
+   "weight_high": 0.68359375,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 1.8054013704825917,
+  "xspace_q_rms": 4.227648606760063,
+  "xspace_sigma_rms": 3.910631729896832,
+  "xspace_T_rms": 2.2253237425618506
+ },
+ "DSMC, hard sphere|M4 from 3,5|hybrid": {
+  "mach": 4.0,
+  "sources": [
+   3.0,
+   5.0
+  ],
+  "kind": "interp",
+  "g_max": 1.066299274331338,
+  "q_L2": 1.1538758518374541,
+  "sigma_L2": 1.897996690611561,
+  "T_max": 1.1137002972655363,
+  "monotone": true,
+  "width_ratio": 0.8974203602824862,
+  "flux_mass": 0.17946585750323596,
+  "flux_mom": 0.668703884451971,
+  "flux_energy": 0.5075742399583305,
+  "positivity": {
+   "beam_fraction_range": [
+    0.029351470567027492,
+    0.894756623249829
+   ],
+   "beam_Tpar_min": 0.16655350044925032,
+   "beam_Tperp_min": 0.16725416130461734,
+   "beam_clipped": false,
+   "remainder_g_negmass": 2.9150761871078635e-08,
+   "remainder_g_min": -4.800278466139357e-07,
+   "remainder_h_negmass": 2.3499998676280672e-08,
+   "remainder_h_min": -4.4847382113448594e-07,
+   "weight_low": 0.31640625,
+   "weight_high": 0.68359375,
+   "g_negmass": 9.223482953793247e-09,
+   "g_min": -1.1017762326495681e-07,
+   "h_negmass": 9.963234695129924e-09,
+   "h_min": -1.6085311181088518e-07
+  },
+  "populations_min": {
+   "mass_fraction": 0.029351470567027492,
+   "Tpar": 0.16655350044925032,
+   "Tperp": 0.16725416130461734,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 1.9581738521256684,
+  "xspace_q_rms": 4.709797719707318,
+  "xspace_sigma_rms": 4.010499293285548,
+  "xspace_T_rms": 2.3857866263046983
+ },
+ "DSMC, hard sphere|M5 from 4,6": {
+  "mach": 5.0,
+  "sources": [
+   4.0,
+   6.0
+  ],
+  "kind": "interp",
+  "g_max": 4.793066101624148,
+  "q_L2": 0.07425068277979595,
+  "sigma_L2": 0.8983710723298879,
+  "T_max": 0.18383751151411823,
+  "monotone": true,
+  "width_ratio": 0.923119594508224,
+  "flux_mass": 0.23163906176872917,
+  "flux_mom": 0.2945085991306051,
+  "flux_energy": 0.41237951787234106,
+  "positivity": {
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 1.5995934414056583,
+  "xspace_q_rms": 4.707590778966766,
+  "xspace_sigma_rms": 4.265542009369203,
+  "xspace_T_rms": 2.7401883544589247
+ },
+ "DSMC, hard sphere|M5 from 4,6|hybrid": {
+  "mach": 5.0,
+  "sources": [
+   4.0,
+   6.0
+  ],
+  "kind": "interp",
+  "g_max": 0.4754140809004418,
+  "q_L2": 0.8699843013628213,
+  "sigma_L2": 0.7187309197532177,
+  "T_max": 0.4998790221480318,
+  "monotone": true,
+  "width_ratio": 0.9198839846329842,
+  "flux_mass": 0.2313358118728459,
+  "flux_mom": 0.27149376694368677,
+  "flux_energy": 0.3166006585748171,
+  "positivity": {
+   "beam_fraction_range": [
+    0.02611571825218292,
+    0.8888296657911924
+   ],
+   "beam_Tpar_min": 0.11502183783651035,
+   "beam_Tperp_min": 0.1156796470445291,
+   "beam_clipped": false,
+   "remainder_g_negmass": 8.633542628486884e-13,
+   "remainder_g_min": -1.8638982017709145e-11,
+   "remainder_h_negmass": 5.683935145837595e-13,
+   "remainder_h_min": -1.5985956698560286e-11,
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 3.039007322387194e-13,
+   "g_min": -5.18760608583827e-12,
+   "h_negmass": 2.419940443816923e-13,
+   "h_min": -6.3463525659053315e-12
+  },
+  "populations_min": {
+   "mass_fraction": 0.023882834618937233,
+   "Tpar": 0.11502183783651035,
+   "Tperp": 0.1156796470445291,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0
+   ]
+  },
+  "xspace_nstar_rms": 1.7181663502279791,
+  "xspace_q_rms": 5.074715496419083,
+  "xspace_sigma_rms": 4.5290543381493285,
+  "xspace_T_rms": 2.9091555265297724
+ },
+ "DSMC, hard sphere|M6 from 5,8": {
+  "mach": 6.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "interp",
+  "g_max": 6.536716886127773,
+  "q_L2": 0.19927503906078128,
+  "sigma_L2": 0.39381931072370135,
+  "T_max": 0.2716700956939761,
+  "monotone": true,
+  "width_ratio": 0.922328474561427,
+  "flux_mass": 0.183381138072769,
+  "flux_mom": 0.16783111039599952,
+  "flux_energy": 0.296859834382901,
+  "positivity": {
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 1.5976910623063076,
+  "xspace_q_rms": 4.914742844385602,
+  "xspace_sigma_rms": 4.473959405151113,
+  "xspace_T_rms": 2.9439540480479365
+ },
+ "DSMC, hard sphere|M6 from 5,8|hybrid": {
+  "mach": 6.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "interp",
+  "g_max": 0.40250451268808213,
+  "q_L2": 0.5911746999987039,
+  "sigma_L2": 0.415072746889664,
+  "T_max": 0.06284214101610647,
+  "monotone": true,
+  "width_ratio": 0.9207629413226974,
+  "flux_mass": 0.19539656922873405,
+  "flux_mom": 0.16206293898872737,
+  "flux_energy": 0.20807265645605977,
+  "positivity": {
+   "beam_fraction_range": [
+    0.022198023186946844,
+    0.8839318785812478
+   ],
+   "beam_Tpar_min": 0.08277773685721793,
+   "beam_Tperp_min": 0.08337261758635237,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.5213571553188535e-15,
+   "remainder_g_min": -4.7541417950513186e-14,
+   "remainder_h_negmass": 6.710522823015628e-16,
+   "remainder_h_min": -3.6430542825999693e-14,
+   "weight_low": 0.49857549857549854,
+   "weight_high": 0.5014245014245015,
+   "g_negmass": 6.026672127117691e-16,
+   "g_min": -1.373132934952059e-14,
+   "h_negmass": 3.804356993422921e-16,
+   "h_min": -1.6631410115167283e-14
+  },
+  "populations_min": {
+   "mass_fraction": 0.02182805706550242,
+   "Tpar": 0.08277773685721793,
+   "Tperp": 0.08337261758635237,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0
+   ]
+  },
+  "xspace_nstar_rms": 1.7028932365279765,
+  "xspace_q_rms": 5.121168512701882,
+  "xspace_sigma_rms": 4.664539078221058,
+  "xspace_T_rms": 3.050560349521463
+ },
+ "DSMC, hard sphere|M8 from 6,12": {
+  "mach": 8.0,
+  "sources": [
+   6.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 14.28452642698452,
+  "q_L2": 0.16923509028996472,
+  "sigma_L2": 0.557274831142485,
+  "T_max": 0.09481282053793755,
+  "monotone": true,
+  "width_ratio": 0.9179439216231404,
+  "flux_mass": 0.2090344587788895,
+  "flux_mom": 0.13686159860291092,
+  "flux_energy": 0.27646512247554433,
+  "positivity": {
+   "weight_low": 0.41666666666666674,
+   "weight_high": 0.5833333333333333,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 1.6383699599241142,
+  "xspace_q_rms": 4.92130123785939,
+  "xspace_sigma_rms": 4.493291341424566,
+  "xspace_T_rms": 2.9944872730309946
+ },
+ "DSMC, hard sphere|M8 from 6,12|hybrid": {
+  "mach": 8.0,
+  "sources": [
+   6.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 0.6836774715678665,
+  "q_L2": 0.8579062094286045,
+  "sigma_L2": 0.6206887368178785,
+  "T_max": 0.3021679974223781,
+  "monotone": true,
+  "width_ratio": 0.9175240439834165,
+  "flux_mass": 0.2332033476126094,
+  "flux_mom": 0.1479653708060802,
+  "flux_energy": 0.08087104202321171,
+  "positivity": {
+   "beam_fraction_range": [
+    0.01603714348282347,
+    0.8780327929913534
+   ],
+   "beam_Tpar_min": 0.04796319016458689,
+   "beam_Tperp_min": 0.048526051384777655,
+   "beam_clipped": false,
+   "remainder_g_negmass": 4.228522199207737e-19,
+   "remainder_g_min": -1.218713554692434e-17,
+   "remainder_h_negmass": 1.9172749532552126e-19,
+   "remainder_h_min": -1.0540080695115236e-17,
+   "weight_low": 0.41666666666666674,
+   "weight_high": 0.5833333333333333,
+   "g_negmass": 5.803240098519496e-20,
+   "g_min": -1.662797070370584e-18,
+   "h_negmass": 3.0622398646998735e-20,
+   "h_min": -2.3630792900355425e-18
+  },
+  "populations_min": {
+   "mass_fraction": 0.01603714348282347,
+   "Tpar": 0.04796319016458689,
+   "Tperp": 0.048526051384777655,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0
+   ]
+  },
+  "xspace_nstar_rms": 1.707804362199195,
+  "xspace_q_rms": 5.050616588072851,
+  "xspace_sigma_rms": 4.601878796726777,
+  "xspace_T_rms": 3.079193871412532
+ },
+ "DSMC, hard sphere|M10 from 8,12": {
+  "mach": 10.0,
+  "sources": [
+   8.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 4.6476779913982424,
+  "q_L2": 0.05530732942436574,
+  "sigma_L2": 0.1469652924094382,
+  "T_max": 0.10843532999973637,
+  "monotone": true,
+  "width_ratio": 0.9172659487479944,
+  "flux_mass": 0.19175859265267992,
+  "flux_mom": 0.12028838487959659,
+  "flux_energy": 0.20583114552406023,
+  "positivity": {
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 0.0,
+   "g_min": 0.0,
+   "h_negmass": 0.0,
+   "h_min": 0.0
+  },
+  "xspace_nstar_rms": 1.6578932259747892,
+  "xspace_q_rms": 4.9968417662859075,
+  "xspace_sigma_rms": 4.609900346245023,
+  "xspace_T_rms": 3.0849335141667362
+ },
+ "DSMC, hard sphere|M10 from 8,12|hybrid": {
+  "mach": 10.0,
+  "sources": [
+   8.0,
+   12.0
+  ],
+  "kind": "interp",
+  "g_max": 0.3335390702191673,
+  "q_L2": 0.1331019373860544,
+  "sigma_L2": 0.16082260618348762,
+  "T_max": 0.06077100283012596,
+  "monotone": true,
+  "width_ratio": 0.9174966690555885,
+  "flux_mass": 0.19867804615403273,
+  "flux_mom": 0.12929530656458077,
+  "flux_energy": 0.1664567457674515,
+  "positivity": {
+   "beam_fraction_range": [
+    0.013091482490828463,
+    0.8751422493469866
+   ],
+   "beam_Tpar_min": 0.03166395466066798,
+   "beam_Tperp_min": 0.03218144608421841,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.2944120960871784e-32,
+   "remainder_g_min": -3.916012453100256e-31,
+   "remainder_h_negmass": 3.97567959461651e-33,
+   "remainder_h_min": -3.189602546909128e-31,
+   "weight_low": 0.3520000000000001,
+   "weight_high": 0.6479999999999999,
+   "g_negmass": 4.256095747754192e-33,
+   "g_min": -1.1013443145942453e-31,
+   "h_negmass": 1.4173705781183962e-33,
+   "h_min": -1.3139153957614133e-31
+  },
+  "populations_min": {
+   "mass_fraction": 0.013091482490828463,
+   "Tpar": 0.03166395466066798,
+   "Tperp": 0.03218144608421841,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 1.6649544127486278,
+  "xspace_q_rms": 5.005546567359118,
+  "xspace_sigma_rms": 4.614775877188691,
+  "xspace_T_rms": 3.099587562582771
+ },
+ "DSMC, hard sphere|M8 from 5,6": {
+  "mach": 8.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 12.023283676306313,
+  "q_L2": 0.5860718401334265,
+  "sigma_L2": 0.32027316307122533,
+  "T_max": 0.40138758391386753,
+  "monotone": true,
+  "width_ratio": 0.9275643427396162,
+  "flux_mass": 0.28200182293069975,
+  "flux_mom": 0.15639932781993382,
+  "flux_energy": 0.13352919426474763,
+  "positivity": {
+   "weight_low": -0.9943181818181814,
+   "weight_high": 1.9943181818181814,
+   "g_negmass": 0.5713865399531594,
+   "g_min": -1.3233126580292032,
+   "h_negmass": 0.3735613406479811,
+   "h_min": -2.10108966096063
+  },
+  "xspace_nstar_rms": 1.5391829625773612,
+  "xspace_q_rms": 5.115644175141189,
+  "xspace_sigma_rms": 4.599784258977221,
+  "xspace_T_rms": 3.150883259917547
+ },
+ "DSMC, hard sphere|M8 from 5,6|hybrid": {
+  "mach": 8.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 2.097015935468715,
+  "q_L2": 0.7641820519211171,
+  "sigma_L2": 0.3697282360726558,
+  "T_max": 0.21574543563887788,
+  "monotone": true,
+  "width_ratio": 0.9299479554650121,
+  "flux_mass": 0.28774047898580957,
+  "flux_mom": 0.170076304156197,
+  "flux_energy": 0.6948502134085377,
+  "positivity": {
+   "beam_fraction_range": [
+    0.02215313302249736,
+    0.8811307805292898
+   ],
+   "beam_Tpar_min": 0.05125365993667498,
+   "beam_Tperp_min": 0.05182710191941994,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.5213571553188535e-15,
+   "remainder_g_min": -4.7541417950513186e-14,
+   "remainder_h_negmass": 6.710522823015628e-16,
+   "remainder_h_min": -3.6430542825999693e-14,
+   "weight_low": -0.9943181818181814,
+   "weight_high": 1.9943181818181814,
+   "g_negmass": 9.638334530478706e-05,
+   "g_min": -0.0003563206956520642,
+   "h_negmass": 0.00033422000515799635,
+   "h_min": -0.0033477350983641225
+  },
+  "populations_min": {
+   "mass_fraction": 0.009958417969822126,
+   "Tpar": 0.05125365993667498,
+   "Tperp": 0.05182710191941994,
+   "mass_fraction_sum_range": [
+    0.9999999999999997,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 1.3601849831211004,
+  "xspace_q_rms": 4.717134024851385,
+  "xspace_sigma_rms": 4.2626984621284505,
+  "xspace_T_rms": 2.955887984151603
+ },
+ "DSMC, hard sphere|M12 from 6,8": {
+  "mach": 12.0,
+  "sources": [
+   6.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 20.74808068774586,
+  "q_L2": 0.10743443005017268,
+  "sigma_L2": 0.5361975294005252,
+  "T_max": 0.19799090810719197,
+  "monotone": true,
+  "width_ratio": 0.9233086308514415,
+  "flux_mass": 0.16265360725864486,
+  "flux_mom": 0.2562312065798156,
+  "flux_energy": 0.07514048955656882,
+  "positivity": {
+   "weight_low": -0.7142857142857144,
+   "weight_high": 1.7142857142857144,
+   "g_negmass": 0.9436432342885641,
+   "g_min": -1.9866810523570317,
+   "h_negmass": 0.1951203310676584,
+   "h_min": -2.1386806061260204
+  },
+  "xspace_nstar_rms": 1.6169613523908888,
+  "xspace_q_rms": 5.222196808822363,
+  "xspace_sigma_rms": 4.818236006882794,
+  "xspace_T_rms": 3.2825034773784876
+ },
+ "DSMC, hard sphere|M12 from 6,8|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   6.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 3.1367573991761066,
+  "q_L2": 1.2355358646803754,
+  "sigma_L2": 0.6557369523992448,
+  "T_max": 0.6541381193321945,
+  "monotone": true,
+  "width_ratio": 0.9261210615194273,
+  "flux_mass": 0.16819662695832793,
+  "flux_mom": 0.1673762245580801,
+  "flux_energy": 0.5810745953159113,
+  "positivity": {
+   "beam_fraction_range": [
+    0.014148737820076116,
+    0.8746926438575578
+   ],
+   "beam_Tpar_min": 0.023970130477024267,
+   "beam_Tperp_min": 0.0071679251051489645,
+   "beam_clipped": false,
+   "remainder_g_negmass": 4.228522199207737e-19,
+   "remainder_g_min": -1.218713554692434e-17,
+   "remainder_h_negmass": 1.9172749532552126e-19,
+   "remainder_h_min": -1.0540080695115236e-17,
+   "weight_low": -0.7142857142857144,
+   "weight_high": 1.7142857142857144,
+   "g_negmass": 1.599338480266754e-05,
+   "g_min": -0.00016158344951850928,
+   "h_negmass": 0.00018102466637769888,
+   "h_min": -0.003093314668722918
+  },
+  "populations_min": {
+   "mass_fraction": 0.014148737820076116,
+   "Tpar": 0.023970130477024267,
+   "Tperp": 0.0071679251051489645,
+   "mass_fraction_sum_range": [
+    0.9999999999999996,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 1.4697295957548364,
+  "xspace_q_rms": 5.016267553795739,
+  "xspace_sigma_rms": 4.563870244394462,
+  "xspace_T_rms": 3.1382273307358775
+ },
+ "DSMC, hard sphere|M12 from 5,8": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 23.681190436222245,
+  "q_L2": 0.12843391580312052,
+  "sigma_L2": 0.6493248085109513,
+  "T_max": 0.14825828918988385,
+  "monotone": true,
+  "width_ratio": 0.9250654764299816,
+  "flux_mass": 0.1883751436476233,
+  "flux_mom": 0.25855002327596077,
+  "flux_energy": 0.061241490850960645,
+  "positivity": {
+   "weight_low": -0.35612535612535634,
+   "weight_high": 1.3561253561253563,
+   "g_negmass": 1.0823840901078,
+   "g_min": -1.9553290346328311,
+   "h_negmass": 0.6153647258905371,
+   "h_min": -3.690833291568294
+  },
+  "xspace_nstar_rms": 1.592227962295059,
+  "xspace_q_rms": 5.237484738539367,
+  "xspace_sigma_rms": 4.820746390478674,
+  "xspace_T_rms": 3.298300696511247
+ },
+ "DSMC, hard sphere|M12 from 5,8|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   8.0
+  ],
+  "kind": "extrap",
+  "g_max": 4.490359332870738,
+  "q_L2": 1.4112011030501652,
+  "sigma_L2": 0.7019851242833538,
+  "T_max": 0.6987102026247946,
+  "monotone": true,
+  "width_ratio": 0.9283470120441408,
+  "flux_mass": 0.19410746913810506,
+  "flux_mom": 0.16616685254970953,
+  "flux_energy": 0.6562384213037564,
+  "positivity": {
+   "beam_fraction_range": [
+    0.015526516905569806,
+    0.8754595075784999
+   ],
+   "beam_Tpar_min": 0.024793848438562215,
+   "beam_Tperp_min": 0.017774277420943382,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.5213571553188535e-15,
+   "remainder_g_min": -4.7541417950513186e-14,
+   "remainder_h_negmass": 6.710522823015628e-16,
+   "remainder_h_min": -3.6430542825999693e-14,
+   "weight_low": -0.35612535612535634,
+   "weight_high": 1.3561253561253563,
+   "g_negmass": 5.2241540619446206e-05,
+   "g_min": -0.00014087022348923078,
+   "h_negmass": 0.00025370486038777697,
+   "h_min": -0.002781917681476696
+  },
+  "populations_min": {
+   "mass_fraction": 0.012886188649762704,
+   "Tpar": 0.024793848438562215,
+   "Tperp": 0.017774277420943382,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000002
+   ]
+  },
+  "xspace_nstar_rms": 1.3934508255522864,
+  "xspace_q_rms": 4.903087293935545,
+  "xspace_sigma_rms": 4.454991190027969,
+  "xspace_T_rms": 3.091686959429574
+ },
+ "DSMC, hard sphere|M12 from 8,10": {
+  "mach": 12.0,
+  "sources": [
+   8.0,
+   10.0
+  ],
+  "kind": "extrap",
+  "g_max": 7.17504254006735,
+  "q_L2": 0.19615911764908822,
+  "sigma_L2": 0.17302767740842642,
+  "T_max": 0.09205449122623902,
+  "monotone": true,
+  "width_ratio": 0.9146744895442414,
+  "flux_mass": 0.18803179233999323,
+  "flux_mom": 0.12892351276813097,
+  "flux_energy": 0.19158003921515565,
+  "positivity": {
+   "weight_low": -0.5432098765432101,
+   "weight_high": 1.54320987654321,
+   "g_negmass": 0.09116032498039492,
+   "g_min": -0.3311795376528915,
+   "h_negmass": 5.132487543072639e-05,
+   "h_min": -0.0014276078489646015
+  },
+  "xspace_nstar_rms": 1.6685433613339167,
+  "xspace_q_rms": 4.968860437588846,
+  "xspace_sigma_rms": 4.582157995463836,
+  "xspace_T_rms": 3.0731216578711322
+ },
+ "DSMC, hard sphere|M12 from 8,10|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   8.0,
+   10.0
+  ],
+  "kind": "extrap",
+  "g_max": 0.6638905385738539,
+  "q_L2": 0.18717524111247366,
+  "sigma_L2": 0.19228141223778994,
+  "T_max": 0.08553698463385188,
+  "monotone": true,
+  "width_ratio": 0.9143164422747875,
+  "flux_mass": 0.1889220757248955,
+  "flux_mom": 0.11513191066154782,
+  "flux_energy": 0.27905360682805025,
+  "positivity": {
+   "beam_fraction_range": [
+    0.010695136086463932,
+    0.8736417647249056
+   ],
+   "beam_Tpar_min": 0.022529099909757114,
+   "beam_Tperp_min": -0.0025200939063304145,
+   "beam_clipped": true,
+   "remainder_g_negmass": 1.2944120960871784e-32,
+   "remainder_g_min": -3.916012453100256e-31,
+   "remainder_h_negmass": 3.97567959461651e-33,
+   "remainder_h_min": -3.189602546909128e-31,
+   "weight_low": -0.5432098765432101,
+   "weight_high": 1.54320987654321,
+   "g_negmass": 6.359902164051432e-06,
+   "g_min": -7.479832103500764e-05,
+   "h_negmass": 5.130685288936795e-05,
+   "h_min": -0.0014624975466925746
+  },
+  "populations_min": {
+   "mass_fraction": 0.010695136086463932,
+   "Tpar": 0.022529099909757114,
+   "Tperp": -0.0025200939063304145,
+   "mass_fraction_sum_range": [
+    0.9999999999999998,
+    1.0000000000000004
+   ]
+  },
+  "xspace_nstar_rms": 1.6529293991016591,
+  "xspace_q_rms": 4.959132357430676,
+  "xspace_sigma_rms": 4.576632914497533,
+  "xspace_T_rms": 3.0514677913311505
+ },
+ "DSMC, hard sphere|M12 from 5,6": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 35.658541762807054,
+  "q_L2": 0.8112076872952481,
+  "sigma_L2": 1.14418374781664,
+  "T_max": 0.6714095218099143,
+  "monotone": true,
+  "width_ratio": 0.9317539479203926,
+  "flux_mass": 0.37253308482680936,
+  "flux_mom": 0.32879668652627814,
+  "flux_energy": 0.21572078837814868,
+  "positivity": {
+   "weight_low": -1.7045454545454546,
+   "weight_high": 2.7045454545454546,
+   "g_negmass": 2.0300750876144753,
+   "g_min": -3.7383049537389064,
+   "h_negmass": 2.6937050521179686,
+   "h_min": -11.24505240822195
+  },
+  "xspace_nstar_rms": 1.5003260482865608,
+  "xspace_q_rms": 5.327142687277801,
+  "xspace_sigma_rms": 4.8329588798554,
+  "xspace_T_rms": 3.3606969339262767
+ },
+ "DSMC, hard sphere|M12 from 5,6|hybrid": {
+  "mach": 12.0,
+  "sources": [
+   5.0,
+   6.0
+  ],
+  "kind": "extrap",
+  "g_max": 9.162531007850335,
+  "q_L2": 2.2555913033700192,
+  "sigma_L2": 1.0527074067292999,
+  "T_max": 0.8719406090637172,
+  "monotone": true,
+  "width_ratio": 0.9375310772599899,
+  "flux_mass": 0.38621608327318313,
+  "flux_mom": 0.30678159158572527,
+  "flux_energy": 1.3075682251160625,
+  "positivity": {
+   "beam_fraction_range": [
+    0.020743289533825468,
+    0.8783631324855208
+   ],
+   "beam_Tpar_min": 0.027912744174749177,
+   "beam_Tperp_min": 0.016562637753986142,
+   "beam_clipped": false,
+   "remainder_g_negmass": 1.5213571553188535e-15,
+   "remainder_g_min": -4.7541417950513186e-14,
+   "remainder_h_negmass": 6.710522823015628e-16,
+   "remainder_h_min": -3.6430542825999693e-14,
+   "weight_low": -1.7045454545454546,
+   "weight_high": 2.7045454545454546,
+   "g_negmass": 0.0026257599323272736,
+   "g_min": -0.005628655095113752,
+   "h_negmass": 0.0036637710304715876,
+   "h_min": -0.022745462612503035
+  },
+  "populations_min": {
+   "mass_fraction": 0.0038631418897244543,
+   "Tpar": 0.0017034385604569602,
+   "Tperp": 0.016562637753986142,
+   "mass_fraction_sum_range": [
+    0.9999999999999994,
+    1.0000000000000004
+   ]
+  },
+  "xspace_nstar_rms": 1.1012051017155449,
+  "xspace_q_rms": 4.528840510527843,
+  "xspace_sigma_rms": 4.046580185183935,
+  "xspace_T_rms": 2.913087049205586
+ }
+}
