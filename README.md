@@ -89,3 +89,7 @@ JSON summaries written by the codes above; the numbers of the paper are taken fr
 
 The raw DSMC output and the three-dimensional discrete-velocity arrays are several gigabytes and are available from
 the author on request.
+
+## Licence
+
+MIT; see `LICENSE`.
