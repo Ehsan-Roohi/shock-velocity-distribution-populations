@@ -64,7 +64,7 @@ and `[-300, 100]` for `omega` = 0.5, 0.81 and 1.
 | `run_population_fits.py`, `branch_fits.py`, `fit_stability.py`, `robustness.py` | fits with one to four populations and their stability |
 | `bgk_reduced_shock.py`, `bgk_resolution.py` | reduced BGK solver (recomputed Mach 6, 8, 12) and its resolution tests |
 | `integral_check.py`, `ohwada_compare.py`, `takata_compare.py` | verification of the reference solutions |
-| `dsmc_analysis.py`, `dsmc_table.py`, `dsmc_resolution.py`, `dsmc_resolution_m12.py` | DSMC populations; cell, time-step and particle-number tests at Mach 8 and 12 |
+| `dsmc_analysis.py`, `dsmc_table.py`, `dsmc_resolution.py`, `dsmc_resolution_m12.py` | DSMC populations; cell, time-step and particle-number tests at Mach 8, 12 and 25 (`dsmc_resolution_m12.py <dir> 25`) |
 | `similarity_lomo.py` | similarity test with one Mach number withheld |
 | `predictor.py`, `predictor_models.py` | prediction with three populations (P), for BGK, DSMC and Shakhov solutions |
 | `predictor_direct.py` | direct (D) and separate-beam (H) predictions, with positivity checks |
@@ -81,7 +81,7 @@ JSON summaries written by the codes above; the numbers of the paper are taken fr
 `predictor_summary.json`, `predictor_models_summary.json`, `predictor_direct.json`, `predictor_clean.json`
 (predictions), `generation_shares_precursor.json`, `free_flight.json`, `cascade_table_source_composition.json`,
 `rate_seeds_*.json`, `precursor_seeds*.json` (precursor), `bgk_resolution.json`, `dsmc_resolution_summary.json`,
-`dsmc_resolution_m12.json` (resolution tests), `fit_stability.json`, `transverse_check.json` (population fits).
+`dsmc_resolution_m12.json`, `dsmc_resolution_m25.json` (resolution tests), `fit_stability.json`, `transverse_check.json` (population fits).
 
 ### `data/`
 

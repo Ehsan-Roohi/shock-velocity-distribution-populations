@@ -1,14 +1,14 @@
-"""Resolution checks of the DSMC shocks at Mach 12 (the strongest shock of the paper).
+"""Resolution checks of the DSMC shocks at Mach 12 and Mach 25.
 
-Baseline: dx = 0.1, dt = 0.002, 200 molecules per upstream cell, 8 seeds (vdf_dsmc/).
-Variants (vdf_dsmc_conv/<name>/, 4 seeds each):
-  A12  hard sphere, dx/2 and dt/2          B12  hard sphere, 400 molecules per cell
-  D12  omega = 1, dx/2 and dt/2            E12  omega = 1, 400 molecules per cell
+Baseline: dx = 0.1, 200 molecules per upstream cell, dt = 0.002 (Mach 12) or 0.001 (Mach 25) (vdf_dsmc/).
+Variants (vdf_dsmc_conv/<name>/, 4 seeds each; <M> = 12 or 25):
+  A<M>  hard sphere, dx/2 and dt/2          B<M>  hard sphere, 400 molecules per cell
+  D<M>  omega = 1, dx/2 and dt/2            E<M>  omega = 1, 400 molecules per cell
 
 Same measures as dsmc_resolution.py (Mach 8), plus the precursor: the distances between the planes where the mass
 fraction of upstream-moving molecules is 1e-2, 1e-3 and 1e-4, which set the decay rate discussed in the paper.
 
-Usage: python dsmc_resolution_m12.py <shock_data dir>
+Usage: python dsmc_resolution_m12.py <shock_data dir> [Mach number, default 12]
 """
 import sys, os, json
 import numpy as np
@@ -34,14 +34,14 @@ def precursor(c):
     return out
 
 
-def main(root):
-    base = {0.5: prep(os.path.join(root, "vdf_dsmc", "DSMC_w0p5_M12_reduced_vdf.npz")),
-            1.0: prep(os.path.join(root, "vdf_dsmc", "DSMC_w1_M12_reduced_vdf.npz"))}
+def main(root, M="12"):
+    base = {0.5: prep(os.path.join(root, "vdf_dsmc", f"DSMC_w0p5_M{M}_reduced_vdf.npz")),
+            1.0: prep(os.path.join(root, "vdf_dsmc", f"DSMC_w1_M{M}_reduced_vdf.npz"))}
     pb = {om: precursor(b) for om, b in base.items()}
     out = {}
-    for name, om, what in (("A12", 0.5, "hard sphere, dx/2 and dt/2"), ("B12", 0.5, "hard sphere, 400 molecules per cell"),
-                           ("D12", 1.0, "omega=1, dx/2 and dt/2"), ("E12", 1.0, "omega=1, 400 molecules per cell")):
-        tag = "DSMC_w0p5_M12" if om == 0.5 else "DSMC_w1_M12"
+    for name, om, what in (("A" + M, 0.5, "hard sphere, dx/2 and dt/2"), ("B" + M, 0.5, "hard sphere, 400 molecules per cell"),
+                           ("D" + M, 1.0, "omega=1, dx/2 and dt/2"), ("E" + M, 1.0, "omega=1, 400 molecules per cell")):
+        tag = f"DSMC_w0p5_M{M}" if om == 0.5 else f"DSMC_w1_M{M}"
         f = os.path.join(root, "vdf_dsmc_conv", name, tag + "_reduced_vdf.npz")
         if not os.path.exists(f):
             print(name, "missing", f); continue
@@ -72,8 +72,8 @@ def main(root):
         print("   precursor length beta 1e-2 -> 1e-3: %.3f vs %.3f (%+.2f%%)   1e-2 -> 1e-4: %.3f vs %.3f (%+.2f%%)" % (
             r["precursor_length_1e-2_to_0.001"], r["precursor_length_base_1e-2_to_0.001"], r["precursor_length_change_pct_0.001"],
             r["precursor_length_1e-2_to_0.0001"], r["precursor_length_base_1e-2_to_0.0001"], r["precursor_length_change_pct_0.0001"]), flush=True)
-    json.dump(out, open(os.path.join(root, "analysis", "out", "dsmc_resolution_m12.json"), "w"), indent=1)
+    json.dump(out, open(os.path.join(root, "analysis", "out", f"dsmc_resolution_m{M}.json"), "w"), indent=1)
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "12")
