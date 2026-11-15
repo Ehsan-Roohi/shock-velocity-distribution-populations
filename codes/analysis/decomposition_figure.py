@@ -14,7 +14,7 @@ import shocklib as sl
 plt.rcParams.update({"font.size": 9, "axes.labelsize": 9, "xtick.labelsize": 8, "ytick.labelsize": 8, "legend.fontsize": 8.5,
                      "font.family": "serif", "mathtext.fontset": "cm", "savefig.dpi": 300, "pdf.fonttype": 42, "lines.linewidth": 1.3})
 LEVELS = (0.1, 0.3, 0.6)
-STY = [("hot", "#009E73", ":"), ("intermediate", "#D55E00", "-."), ("beam", "#0072B2", "--")]      # ordered by mean velocity
+STY = [("hot", "#D7422B", ":"), ("intermediate", "#8E6BBE", "-."), ("beam", "#2C7FB8", "--")]      # ordered by mean velocity
 
 
 def main(root):
@@ -45,7 +45,7 @@ def main(root):
     h, l = axs[0, 0].get_legend_handles_labels()
     fig.legend(h, l, loc="upper center", ncol=5, frameon=False, bbox_to_anchor=(0.5, 1.0), handlelength=2.4, columnspacing=1.4)
     fig.tight_layout(rect=(0, 0, 1, 0.94), h_pad=0.9, w_pad=0.8)
-    fd = os.path.join(root, "paper", "figures")
+    fd = os.path.join(root, "paper", "jfm_main", "figures")
     for e in ("pdf", "png"):
         fig.savefig(os.path.join(fd, "fig22_population_decomposition." + e))
     print("written fig22_population_decomposition")
