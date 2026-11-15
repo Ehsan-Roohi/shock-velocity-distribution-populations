@@ -64,7 +64,7 @@ and `[-300, 100]` for `omega` = 0.5, 0.81 and 1.
 | `shocklib.py` | Rankine-Hugoniot states, moments, population fits |
 | `run_population_fits.py`, `branch_fits.py`, `fit_stability.py`, `robustness.py` | fits with one to four populations and their stability |
 | `bgk_reduced_shock.py`, `bgk_resolution.py` | reduced BGK solver (recomputed Mach 6, 8, 12) and its resolution tests |
-| `integral_check.py`, `ohwada_compare.py`, `takata_compare.py` | verification of the reference solutions |
+| `integral_check.py`, `ohwada_compare.py`, `takata_compare.py`, `dodulad_compare.py` | verification of the reference solutions and of the DSMC against published Boltzmann-equation solutions |
 | `dsmc_analysis.py`, `dsmc_table.py`, `dsmc_resolution.py`, `dsmc_resolution_m12.py` | DSMC populations; cell, time-step and particle-number tests at Mach 8, 12 and 25 (`dsmc_resolution_m12.py <dir> 25`) |
 | `similarity_lomo.py` | similarity test with one Mach number withheld |
 | `predictor.py`, `predictor_models.py` | prediction with three populations (P), for BGK, DSMC and Shakhov solutions |
