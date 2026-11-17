@@ -21,6 +21,10 @@ its results on
 The many-kernel (512-Gaussian) phase-space representation that the paper summarises in its Sec. 10 has its own
 repository: <https://github.com/Ehsan-Roohi/KineticGaussian>.
 
+The folder [`nitrogen-rotational-shocks/`](nitrogen-rotational-shocks/) holds the codes and data of a separate Letter
+on the rotational populations of nitrogen shock waves, resolved by the number of collisions of every molecule; its
+simulation data are in the release `nitrogen-rotational-shocks-data`.
+
 ## Units and symbols
 
 `rho1 = T1 = R = 1`, `u1 = M sqrt(5/3)`; lengths in `l1 = sqrt(R T1) mu1 / p1`.
