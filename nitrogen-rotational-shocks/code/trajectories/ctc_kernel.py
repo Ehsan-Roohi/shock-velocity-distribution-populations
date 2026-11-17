@@ -17,7 +17,8 @@ energy in units of T2, for the trajectories and, on the same pre-collision pairs
 (probability 1/zrot) and for the Pullin rule (active fraction phi) with isotropic scattering.
 
 Usage: python ctc_kernel.py <out.npz> [N=100000] [seed=1] [key=value ...]
-Keys: T1, T2, u1 (m/s), Th, Trh, pcold, eps, sig, bond, bmax, zrot, phi, omega; numerical parameters for accuracy
+Keys: T1, T2, u1 (m/s), Th, Trh, pcold, eps, sig, bond, bmax, zrot, phi, omega, pot (1: ab initio potential of
+Hellmann, see n2_hellmann.py); numerical parameters for accuracy
 tests: nsteps (integration steps per trajectory, default 3000) and D (half-length of the path in A, default 14)."""
 import sys, math
 import numpy as np
@@ -56,6 +57,11 @@ def potential(r, n1, n2):
         d = r + 0.5 * sa * L * n1 - 0.5 * sb * L * n2; s6 = (SIG2 / (d * d).sum(1)) ** 3
         V += 4 * EPS * (s6 * s6 - s6)
     return V
+
+
+if P.get("pot", 0.0) == 1.0:     # pot=1: ab initio N2-N2 potential of Hellmann (2013), version B; use with bond=1.1014
+    import n2_hellmann
+    deriv, potential = n2_hellmann.make(I, MU)
 
 
 def rotor(n, erot):
