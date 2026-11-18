@@ -26,7 +26,8 @@ def row(s):
 head = r"$\sigma^{\rm g}_{0.1}$ & $\sigma_{0.3}$ & $\sigma_{1}$ & $A$ & $T_s/T_2$ & $\langle\Delta e\rangle/kT_2$ & $e_{\rm up}/kT_2$ & $\sigma_\mu$ (\AA$^2$)"
 sets = [("Mach 12.9 conditions, reference", "M12.9tm"), ("Mach 7.0 conditions, reference", "M7tm"), ("parameter set B, Mach 12.9", "M12.9"), ("parameter set B, Mach 7.0", "M7"),
         ("parameter set C, Mach 12.9", "M12.9b"), (r"largest impact parameter 7.0~\AA", "accB"), ("6000 integration steps", "accN"), (r"path half-length 20~\AA", "accD"),
-        (r"all temperatures $\times2$ ($T_2=610$~K)", "simT2"), (r"all temperatures $\times4$ ($T_2=1220$~K)", "simT4")]
+        (r"all temperatures $\times2$ ($T_2=610$~K)", "simT2"), (r"all temperatures $\times4$ ($T_2=1220$~K)", "simT4"),
+        ("ab initio potential, Mach 12.9", "M12.9ai"), ("ab initio potential, Mach 7.0", "M7ai")]
 write("traj", "\\begin{ruledtabular}\n\\begin{tabular}{lcccccccc}\n & " + head + " \\\\\n\\hline\n" + "".join(f"{n} & {row(s)} \\\\\n" for n, s in sets) + "\\end{tabular}\n\\end{ruledtabular}\n")
 elo = [("0.20", "0.634", "elo20"), ("0.345", "1.094", "M12.9tm"), ("0.40", "1.268", "elo40"), ("0.50", "1.585", "elo50"), ("0.65", "2.061", "elo65")]
 write("elo", "\\begin{ruledtabular}\n\\begin{tabular}{cccccccccc}\nelongation & bond (\\AA) & " + head + " \\\\\n\\hline\n" + "".join(f"{e} & {b} & {row(s)} \\\\\n" for e, b, s in elo)

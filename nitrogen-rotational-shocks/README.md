@@ -1,14 +1,15 @@
-# Rotational populations of a strong shock wave resolved by collision count
+# How collisions shape the rotational spectrum of a nitrogen shock
 
 Codes and data for the Letter
 
-> E. Roohi, *Rotational populations of a strong shock wave resolved by collision count* (2026), and its Supplemental
-> Material.
+> E. Roohi, *How collisions shape the rotational spectrum of a nitrogen shock* (2026), and its Supplemental Material.
 
 The Letter computes the nitrogen shock waves measured by Robben and Talbot (Phys. Fluids 9, 653, 1966) at Mach 7.0 and
 12.9 by direct simulation Monte Carlo (DSMC). Rotational energy is exchanged by the Larsen-Borgnakke rule, by a soft
 exchange rule, or through a collision kernel built from classical trajectories of two rigid rotors with two
-Lennard-Jones sites each. Every simulated molecule carries the number of its collisions in the shock. This folder holds
+Lennard-Jones sites each. A second kernel, built in the same way from the ab initio N2-N2 potential of Hellmann
+(Mol. Phys. 111, 387, 2013), tests the choice of the potential. Every simulated molecule carries the number of its
+collisions in the shock. This folder holds
 the codes, the measured free-stream populations used as inflow, and the tables of the Supplemental Material as CSV; the
 reduced and raw simulation data are in the release
 [`nitrogen-rotational-shocks-data`](https://github.com/Ehsan-Roohi/shock-velocity-distribution-populations/releases/tag/nitrogen-rotational-shocks-data)
@@ -28,7 +29,7 @@ upstream mean free path `l1` of the variable-hard-sphere gas with viscosity expo
 | `code/dsmc/` | `dsmc_shock_vdf19.cpp` (main runs), `dsmc_shock_vdf20.cpp` (control runs; identical to version 19 for `freeze=0` and `freeze=1`), `dsmc_shock_vdf17.cpp` (reference runs and numerical tests), `dsmc_shock_vdf12.cpp` (runs at Mach 8 and 12 of the precursor table), `make_vdf18/19/20.py` (the changes from version 17 to 20, documented as patches), `cascade_linear_rot.cpp` (linear recoil cascade of the precursor) |
 | `code/trajectories/` | classical trajectories (`ctc_kernel.py`: ensembles at the conditions of the shock front; `ctc_kcell.py`: trajectories for the kernel), the kernel builder `kcell.py` (writes `kernel.bin`), its tests (`kcell_test.py`, `kcell_gain.py`) and the analyses of the ensembles (`ctc_analyse.py`, `ctc_condition.py`, `ctc_excite.py`); `n2_hellmann.py` is the ab initio N2-N2 potential of Hellmann (Mol. Phys. 111, 387, 2013; version B, parameters from its supplementary material), used with `pot=1 bond=1.1014` in place of the two-centre Lennard-Jones model |
 | `code/reduction/` | reduction of the DSMC output: histograms by number of collisions (`n2_erh_reduce.py`), first collisions (`n2_first_reduce.py`), profiles (`n2_exchange_compare.py`), precursor (`n2_letter_precursor.py`), state of the stream and conserved fluxes (`n2_stream_state.py`); `n2_check.py` reads one run |
-| `code/analysis/` | the measurements of Robben and Talbot transcribed from their Tables I and II (`robben_talbot_1966.py`), the measured free stream (`rt_inflow.py`), the level populations predicted from DSMC (`rt_predict.py`, `rt_predict_rin.py`), and further analyses used while preparing the Letter |
+| `code/analysis/` | the measurements of Robben and Talbot transcribed from their Tables I and II (`robben_talbot_1966.py`), the measured free stream (`rt_inflow.py`), the level populations predicted from DSMC (`rt_predict.py`, `rt_predict_rin.py`; `rt_predict_ai.py` for the runs with the ab initio kernel), the comparison of the ab initio and Lennard-Jones kernels (`ai_vs_lj_single.py`: single collisions; `ai_vs_lj_shock.py`: shock runs), and further analyses used while preparing the Letter |
 | `code/paper/` | the scripts that make the figures (`make_schematic.py`: the overview figure), the tables and every number quoted in the text from the reduced data |
 | `code/rykov/` | discrete-velocity solver of the Rykov model in the form of Wu *et al.* (J. Fluid Mech. 763, 24, 2015) used in the Supplemental Material |
 | `data/inflow/` | rotational populations measured at the first station (`rin_M7.txt`, `rin_M12.9.txt`), with which the simulated stream enters |
@@ -44,6 +45,9 @@ upstream mean free path `l1` of the variable-hard-sphere gas with viscosity expo
 | `dsmc_reference.tar.gz` | reference runs with the Boltzmann stream (`v17k`, `v17lb`, `v17chi`), numerical tests (`v17ref/grid`, `half`, `egrid`), LB runs with `p = 0.2` at Mach 7, 8, 12 and 12.9 (`lb12`), linear cascade (`casc_n2`) |
 | `trajectories.tar.gz` | trajectory ensembles (`ctc/`) and the trajectories of the kernel with the kernels themselves (`kcell/kernel.bin`, `kernel_half.bin`, `kernel_egrid.bin`) |
 | `rykov_model.tar.gz` | solutions of the Rykov model (profiles, convergence histories) |
+| `reduced_data_ab_initio.tar.gz` | reduced files of the shock runs with the ab initio kernel (`*_v19ai.*`, `rt_predict_v19ai*.json`), the analyses of the ab initio trajectory ensembles (`ctc_cluster/*ai.*`) and the tests of the ab initio kernel (`kcell_ai/`); unpack into the same folder as `reduced_data.tar.gz`; an index is inside |
+| `dsmc_ab_initio.tar.gz` | raw output of the shock runs with the ab initio kernel (`v19ai/k`, seeds 11-14) |
+| `trajectories_ab_initio.tar.gz` | trajectory ensembles with the ab initio potential and their analyses (`ctc_ai/`), the trajectories of the ab initio kernel and the kernel itself (`kcell_ai/c_*.npz`, `kcell_ai/kernel.bin`), and its tests |
 
 Each DSMC run writes `<out>.txt` (all parameters, one per line) and binary arrays (`.bin`, `.cls.bin`, `.erh.bin`,
 `.erl.bin`, `.erv.bin`, `.first.bin`, `.fly.bin`, `.h2.bin`, `.rot.bin`) whose layout is described in the header
@@ -72,6 +76,12 @@ Trajectories: `python ctc_kernel.py ctc/M12.9tm_s300.npz N=60000 seed=300 eps=47
 `python ctc_kcell.py kcell/c_<i>.npz <7 i> 7 N=2500 seed=<9000 + i> eps=47.2 sig=3.17 bond=1.094` for `i = 0..206`,
 then `python kcell.py pack kcell/kernel.bin kcell/c_*.npz`.
 
+Ab initio potential: the same commands with `pot=1 bond=1.1014` in place of `eps=47.2 sig=3.17 bond=1.094`, writing
+`ctc_ai/M12.9ai_s<seed>.npz`, `ctc_ai/M7ai_s<seed>.npz` and `kcell_ai/c_<i>.npz`, then
+`python kcell.py pack kcell_ai/kernel.bin kcell_ai/c_*.npz`; tests: `python kcell_test.py kcell_ai/c_*.npz T=300
+n=200000 ncoll=25` and `python kcell_gain.py kcell_ai/kernel_gain.npz ctc_ai/cond_M12.9ai.npz ctc_ai/cond_M7ai.npz
+kcell_ai/c_*.npz`. Shock runs: the main-run command with `ktab=kcell_ai/kernel.bin` and `out=runs_n2/v19ai/k/...`.
+
 Reduction (in the folder of the runs), for example
 `python n2_erh_reduce.py erh_rin.npz M7k='runs_n2/v19/k/M7_s*.txt' M12.9k='runs_n2/v19/k/M12.9_s*.txt'`; the labels
 used by the paper scripts are `k` (kernel), `zi10` (LB `p(Ec)`; `lb` in the first-collision files), `c` (LB
@@ -82,6 +92,10 @@ Paper: unpack `reduced_data.tar.gz` into a folder `<data>` and copy `code/analys
 `python make_sm_tables.py <data> <out> rin`, `python make_figures.py <data> figs ctc=M12.9tm ctc7=M7tm sm=1 src=rin`,
 `python make_mixture_table.py <data> first_rin.npz M7k M12.9k <out>` and `python make_text_numbers.py <data> rin`
 (`python make_text_numbers.py <data> rin v20` for the control runs).
+
+Ab initio kernel: unpack `reduced_data_ab_initio.tar.gz` into the same `<data>`; in `<data>`: `python rt_predict_ai.py`,
+then `python ai_vs_lj_shock.py .` and `python ai_vs_lj_single.py .`; from `code/paper/`:
+`python make_text_numbers.py <data> rin v19ai` (profile separation, decay length of the upstream-moving fraction).
 
 ## Licence
 
